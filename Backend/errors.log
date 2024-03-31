@@ -1,0 +1,1978 @@
+Time: Mon Mar 04 2024 21:19:52 GMT+0200 (Israel Standard Time)
+Message: Table 'vacations_sys.products' doesn't exist
+Stack: Error: Table 'vacations_sys.products' doesn't exist
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Mar 05 2024 08:24:35 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Tue Mar 05 2024 08:28:38 GMT+0200 (Israel Standard Time)
+Message: Route /api/suppliers/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Mar 06 2024 13:28:19 GMT+0200 (Israel Standard Time)
+Message: Table 'vacations_sys.products' doesn't exist
+Stack: Error: Table 'vacations_sys.products' doesn't exist
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Wed Mar 06 2024 15:32:25 GMT+0200 (Israel Standard Time)
+Message: Email already taken.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Mar 06 2024 15:33:16 GMT+0200 (Israel Standard Time)
+Message: Table 'vacations_sys.products' doesn't exist
+Stack: Error: Table 'vacations_sys.products' doesn't exist
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Wed Mar 06 2024 15:33:33 GMT+0200 (Israel Standard Time)
+Message: Table 'vacations_sys.products' doesn't exist
+Stack: Error: Table 'vacations_sys.products' doesn't exist
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Wed Mar 06 2024 16:04:04 GMT+0200 (Israel Standard Time)
+Message: "firstName" is not allowed to be empty
+Stack: undefined
+---------------------------------------
+
+Time: Wed Mar 06 2024 16:12:31 GMT+0200 (Israel Standard Time)
+Message: "firstName" is not allowed to be empty
+Stack: undefined
+---------------------------------------
+
+Time: Wed Mar 06 2024 17:55:48 GMT+0200 (Israel Standard Time)
+Message: "email" is not allowed to be empty
+Stack: undefined
+---------------------------------------
+
+Time: Wed Mar 06 2024 18:30:05 GMT+0200 (Israel Standard Time)
+Message: "email" is not allowed to be empty
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 07 2024 13:44:50 GMT+0200 (Israel Standard Time)
+Message: "email" is not allowed to be empty
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 07 2024 13:44:56 GMT+0200 (Israel Standard Time)
+Message: "password" is not allowed to be empty
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 07 2024 15:20:16 GMT+0200 (Israel Standard Time)
+Message: Route /api/suppliers/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 07 2024 15:29:17 GMT+0200 (Israel Standard Time)
+Message: "email" is not allowed to be empty
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 07 2024 15:30:39 GMT+0200 (Israel Standard Time)
+Message: "email" is not allowed to be empty
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 07 2024 15:30:47 GMT+0200 (Israel Standard Time)
+Message: "password" is not allowed to be empty
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 07 2024 15:30:53 GMT+0200 (Israel Standard Time)
+Message: "password" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 07 2024 15:30:58 GMT+0200 (Israel Standard Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 07 2024 15:32:16 GMT+0200 (Israel Standard Time)
+Message: "email" is not allowed to be empty
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 07 2024 15:39:55 GMT+0200 (Israel Standard Time)
+Message: "firstName" is not allowed to be empty
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 07 2024 15:40:00 GMT+0200 (Israel Standard Time)
+Message: Email Address is not valid.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 07 2024 15:52:12 GMT+0200 (Israel Standard Time)
+Message: "email" must be a valid email
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 07 2024 15:52:27 GMT+0200 (Israel Standard Time)
+Message: "email" must be a valid email
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 07 2024 15:59:40 GMT+0200 (Israel Standard Time)
+Message: "email" must be a valid email
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 07 2024 16:00:01 GMT+0200 (Israel Standard Time)
+Message: "email" length must be at least 5 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Sat Mar 09 2024 13:20:36 GMT+0200 (Israel Standard Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Sat Mar 09 2024 20:28:32 GMT+0200 (Israel Standard Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Sat Mar 09 2024 20:28:45 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'L.id' in 'on clause'
+Stack: Error: Unknown column 'L.id' in 'on clause'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sat Mar 09 2024 20:31:14 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'L.id' in 'on clause'
+Stack: Error: Unknown column 'L.id' in 'on clause'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sat Mar 09 2024 20:32:40 GMT+0200 (Israel Standard Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY id
+            ORDER BY start_date' at line 7
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY id
+            ORDER BY start_date' at line 7
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sat Mar 09 2024 20:55:10 GMT+0200 (Israel Standard Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY id
+            ORDER BY start_date' at line 7
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY id
+            ORDER BY start_date' at line 7
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sat Mar 09 2024 21:02:54 GMT+0200 (Israel Standard Time)
+Message: Expression #8 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'vacations_sys.L.userId' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+Stack: Error: Expression #8 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'vacations_sys.L.userId' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sat Mar 09 2024 21:03:05 GMT+0200 (Israel Standard Time)
+Message: Expression #8 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'vacations_sys.L.userId' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+Stack: Error: Expression #8 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'vacations_sys.L.userId' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sat Mar 09 2024 21:03:21 GMT+0200 (Israel Standard Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY id
+            ORDER BY start_date' at line 7
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY id
+            ORDER BY start_date' at line 7
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sat Mar 09 2024 21:03:29 GMT+0200 (Israel Standard Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY id
+            ORDER BY start_date' at line 7
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY id
+            ORDER BY start_date' at line 7
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sat Mar 09 2024 21:03:58 GMT+0200 (Israel Standard Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY id
+            ORDER BY start_date' at line 7
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY id
+            ORDER BY start_date' at line 7
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sat Mar 09 2024 21:05:02 GMT+0200 (Israel Standard Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?) AS isLiked,
+        COUNT(L.userId) AS likesCount
+    FROM
+        vacations ' at line 3
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?) AS isLiked,
+        COUNT(L.userId) AS likesCount
+    FROM
+        vacations ' at line 3
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sat Mar 09 2024 21:07:36 GMT+0200 (Israel Standard Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY v.id
+            ORDER BY v.start_date' at line 7
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY v.id
+            ORDER BY v.start_date' at line 7
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 08:29:52 GMT+0200 (Israel Standard Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 08:30:36 GMT+0200 (Israel Standard Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 08:33:51 GMT+0200 (Israel Standard Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY v.id
+            ORDER BY v.start_date' at line 7
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY v.id
+            ORDER BY v.start_date' at line 7
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 14:41:17 GMT+0200 (Israel Standard Time)
+Message: Table 'vacations_sys.categories' doesn't exist
+Stack: Error: Table 'vacations_sys.categories' doesn't exist
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 14:41:18 GMT+0200 (Israel Standard Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 14:41:30 GMT+0200 (Israel Standard Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 14:41:41 GMT+0200 (Israel Standard Time)
+Message: Route / not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 14:42:00 GMT+0200 (Israel Standard Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 14:42:35 GMT+0200 (Israel Standard Time)
+Message: Route /api/login not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 14:44:53 GMT+0200 (Israel Standard Time)
+Message: Route /login not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 14:45:11 GMT+0200 (Israel Standard Time)
+Message: Route /homr not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 14:45:13 GMT+0200 (Israel Standard Time)
+Message: Route /home not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 19:45:55 GMT+0200 (Israel Standard Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 19:46:00 GMT+0200 (Israel Standard Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:33:44 GMT+0200 (Israel Standard Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:33:44 GMT+0200 (Israel Standard Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:35:05 GMT+0200 (Israel Standard Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:35:09 GMT+0200 (Israel Standard Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:35:14 GMT+0200 (Israel Standard Time)
+Message: alert is not defined
+Stack: ReferenceError: alert is not defined
+    at verifyLoggedIn (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\4-middleware\security-middleware.ts:39:13)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:47:12)
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:41:19 GMT+0200 (Israel Standard Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:41:20 GMT+0200 (Israel Standard Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:41:38 GMT+0200 (Israel Standard Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:41:52 GMT+0200 (Israel Standard Time)
+Message: Route /vacations-with-likes/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:45:26 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//6/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:45:28 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//6/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:55:54 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:56:29 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:56:31 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:56:35 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:56:36 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:56:38 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:56:43 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:56:44 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:57:01 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:57:02 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 20:57:04 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:00:25 GMT+0200 (Israel Standard Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:04:49 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacation/5 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:05:23 GMT+0200 (Israel Standard Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:08:19 GMT+0200 (Israel Standard Time)
+Message: "id" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:08:26 GMT+0200 (Israel Standard Time)
+Message: "price" must be less than or equal to 9999
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:08:41 GMT+0200 (Israel Standard Time)
+Message: "image_name" failed custom validation because Cannot read properties of undefined (reading 'presence')
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:08:56 GMT+0200 (Israel Standard Time)
+Message: "image_name" failed custom validation because Cannot read properties of undefined (reading 'presence')
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:09:25 GMT+0200 (Israel Standard Time)
+Message: "image_name" failed custom validation because Cannot read properties of undefined (reading 'presence')
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:09:38 GMT+0200 (Israel Standard Time)
+Message: "image" is required
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:09:52 GMT+0200 (Israel Standard Time)
+Message: "image_name" failed custom validation because Cannot read properties of undefined (reading 'presence')
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:11:24 GMT+0200 (Israel Standard Time)
+Message: "image_name" failed custom validation because Cannot read properties of undefined (reading 'presence')
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:16:16 GMT+0200 (Israel Standard Time)
+Message: "image_name" failed custom validation because Cannot read properties of undefined (reading 'presence')
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:16:27 GMT+0200 (Israel Standard Time)
+Message: "image_name" failed custom validation because Cannot read properties of undefined (reading 'presence')
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:18:35 GMT+0200 (Israel Standard Time)
+Message: "image_name" failed custom validation because Cannot read properties of undefined (reading 'presence')
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:20:09 GMT+0200 (Israel Standard Time)
+Message: "image_name" failed custom validation because Cannot read properties of undefined (reading 'presence')
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:21:08 GMT+0200 (Israel Standard Time)
+Message: "image_name" failed custom validation because Cannot read properties of undefined (reading 'presence')
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:21:13 GMT+0200 (Israel Standard Time)
+Message: Expected double-quoted property name in JSON at position 197
+Stack: SyntaxError: Expected double-quoted property name in JSON at position 197
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:21:20 GMT+0200 (Israel Standard Time)
+Message: "image" is required
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:23:38 GMT+0200 (Israel Standard Time)
+Message: "destination" is required
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:23:54 GMT+0200 (Israel Standard Time)
+Message: "destination" is required
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:24:08 GMT+0200 (Israel Standard Time)
+Message: "description" is required
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:24:56 GMT+0200 (Israel Standard Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:30:23 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/:id not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:31:22 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/:id not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:32:14 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:32:48 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:34:42 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:36:08 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:36:11 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:36:12 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:36:48 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:37:03 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/:id not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:37:12 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/:id not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:37:23 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:38:46 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 21:39:11 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 22:02:32 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 22:14:04 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 22:17:18 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 22:18:36 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 10 2024 22:29:40 GMT+0200 (Israel Standard Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 22:30:32 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//7/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 23:11:04 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 23:11:11 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 23:12:00 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 23:12:10 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//4/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 23:48:52 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 23:48:59 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 23:49:04 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//4/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 10 2024 23:49:06 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//7/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 13:28:15 GMT+0200 (Israel Standard Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 13:28:17 GMT+0200 (Israel Standard Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 13:30:13 GMT+0200 (Israel Standard Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 14:55:34 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/7//d+)/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 15:25:08 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//4/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 15:25:21 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 15:41:11 GMT+0200 (Israel Standard Time)
+Message: Table 'vacations_sys.products' doesn't exist
+Stack: Error: Table 'vacations_sys.products' doesn't exist
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Mon Mar 11 2024 15:43:33 GMT+0200 (Israel Standard Time)
+Message: Table 'vacations_sys.products' doesn't exist
+Stack: Error: Table 'vacations_sys.products' doesn't exist
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Mon Mar 11 2024 15:44:11 GMT+0200 (Israel Standard Time)
+Message: Table 'vacations_sys.products' doesn't exist
+Stack: Error: Table 'vacations_sys.products' doesn't exist
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Mon Mar 11 2024 18:08:04 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//4/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 18:24:16 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//4/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 18:24:49 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//4/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 18:33:42 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/6/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:34:20 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:34:21 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:34:25 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:34:27 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:34:31 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:36:45 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:36:46 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:36:48 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//4/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:36:49 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//4/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:36:49 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//4/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:36:49 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//4/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:36:50 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//4/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:36:50 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//4/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:37:00 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:37:01 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:37:37 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:38:26 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:38:27 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:38:27 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:38:28 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:38:39 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:38:40 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:38:41 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:38:51 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:38:52 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:39:03 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:39:15 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:39:16 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:39:17 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//4/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:39:18 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//4/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:39:20 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//8/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:39:21 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//8/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:39:57 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:40:49 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:41:21 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:41:59 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:42:04 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:43:01 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:43:02 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:46:41 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:46:47 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:54:22 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:56:44 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:57:04 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:57:12 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/1//like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 22:57:35 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:09:06 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:09:34 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:09:34 GMT+0200 (Israel Standard Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:09:42 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:11:23 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:11:31 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:11:32 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:12:02 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:12:03 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:12:16 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:12:16 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:14:26 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:14:27 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:14:39 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:15:37 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:16:15 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:20:33 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:20:46 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:38:51 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//5/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:47:21 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:50:17 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 11 2024 23:51:55 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 08:21:50 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 08:32:45 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//3/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 08:37:53 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 08:42:52 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 08:45:18 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 08:46:30 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 08:49:26 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 08:54:45 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 09:06:48 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 09:10:03 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 09:11:40 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 09:16:33 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 09:17:34 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 09:17:45 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 09:20:05 GMT+0200 (Israel Standard Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 12:45:05 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 12:45:27 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 12:45:27 GMT+0200 (Israel Standard Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 12:45:32 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 12:54:15 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 12:54:15 GMT+0200 (Israel Standard Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 13:04:58 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 13:06:11 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 12 2024 13:06:20 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations//2/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Mar 13 2024 13:02:43 GMT+0200 (Israel Standard Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Mar 13 2024 13:02:58 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/1/like not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 14 2024 13:55:19 GMT+0200 (Israel Standard Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 14 2024 13:55:25 GMT+0200 (Israel Standard Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 14 2024 13:55:30 GMT+0200 (Israel Standard Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 14 2024 14:13:42 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'totalLikesCount' in 'where clause'
+Stack: Error: Unknown column 'totalLikesCount' in 'where clause'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Thu Mar 14 2024 14:13:49 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'totalLikesCount' in 'field list'
+Stack: Error: Unknown column 'totalLikesCount' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Thu Mar 14 2024 14:13:50 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'totalLikesCount' in 'where clause'
+Stack: Error: Unknown column 'totalLikesCount' in 'where clause'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Thu Mar 14 2024 14:14:26 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'totalLikesCount' in 'field list'
+Stack: Error: Unknown column 'totalLikesCount' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Thu Mar 14 2024 14:19:24 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'totalLikesCount' in 'field list'
+Stack: Error: Unknown column 'totalLikesCount' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Thu Mar 14 2024 14:19:44 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'totalLikesCount' in 'where clause'
+Stack: Error: Unknown column 'totalLikesCount' in 'where clause'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Thu Mar 14 2024 14:19:50 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'totalLikesCount' in 'where clause'
+Stack: Error: Unknown column 'totalLikesCount' in 'where clause'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Thu Mar 14 2024 14:23:16 GMT+0200 (Israel Standard Time)
+Message: Unknown column 'totalLikesCount' in 'field list'
+Stack: Error: Unknown column 'totalLikesCount' in 'field list'
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sat Mar 16 2024 17:07:06 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Sat Mar 16 2024 17:16:09 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Sun Mar 17 2024 10:00:13 GMT+0200 (Israel Standard Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?
+    GROUP BY 
+        vacationId) AS L ON V.id = L.vacationId
+ORDER BY 
+    V.' at line 16
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?
+    GROUP BY 
+        vacationId) AS L ON V.id = L.vacationId
+ORDER BY 
+    V.' at line 16
+    at Packet.asError (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+---------------------------------------
+
+Time: Sun Mar 17 2024 13:49:47 GMT+0200 (Israel Standard Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 12:58:19 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 13:02:32 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 13:02:52 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 13:08:26 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 13:09:00 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 13:19:49 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 13:20:57 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 13:20:57 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 13:22:36 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 13:23:14 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 13:33:59 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:25:40 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:26:21 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:26:56 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:26:58 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:28:53 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:32:09 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/:id not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:35:41 GMT+0200 (Israel Standard Time)
+Message: Route /api/vacations/:id not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:35:50 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:36:59 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:43:13 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:44:36 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:45:28 GMT+0200 (Israel Standard Time)
+Message: "totalLikesCount" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:45:54 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:46:59 GMT+0200 (Israel Standard Time)
+Message: id 8 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:48:06 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:50:52 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:50:54 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:50:55 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:51:23 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:51:24 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 14:51:25 GMT+0200 (Israel Standard Time)
+Message: id 9 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 15:08:23 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 15:12:10 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 15:13:54 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 15:14:01 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 15:17:49 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 15:17:52 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 15:17:53 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 15:18:21 GMT+0200 (Israel Standard Time)
+Message: "isLikedByCurrentUser" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 15:25:03 GMT+0200 (Israel Standard Time)
+Message: "description" length must be less than or equal to 75 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 15:25:37 GMT+0200 (Israel Standard Time)
+Message: "description" length must be less than or equal to 75 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Mon Mar 18 2024 15:25:46 GMT+0200 (Israel Standard Time)
+Message: "description" length must be less than or equal to 75 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 19 2024 14:36:59 GMT+0200 (Israel Standard Time)
+Message: Route /api/products/NaN not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Mar 26 2024 11:40:26 GMT+0200 (Israel Standard Time)
+Message: Route /api/attacks not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Mar 27 2024 18:33:25 GMT+0200 (Israel Standard Time)
+Message: id 14 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 28 2024 13:05:12 GMT+0200 (Israel Standard Time)
+Message: You are not authorized.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 28 2024 16:48:52 GMT+0200 (Israel Standard Time)
+Message: You are not authorized.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 28 2024 16:49:27 GMT+0200 (Israel Standard Time)
+Message: You are not authorized.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 28 2024 16:51:02 GMT+0200 (Israel Standard Time)
+Message: You are not authorized.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Mar 28 2024 16:54:05 GMT+0200 (Israel Standard Time)
+Message: You are not authorized.
+Stack: undefined
+---------------------------------------
+

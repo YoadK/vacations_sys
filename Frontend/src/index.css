@@ -1,0 +1,61 @@
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;    
+    text-align: center;
+    background-image: linear-gradient(45deg, rgb(252, 248, 211), white);
+    
+}
+
+*/ a {
+    color: blue;
+}
+
+form {
+    width: 300px;
+    border: 1px solid;
+    text-align: left;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 7px;
+     height: max-content;
+
+}
+
+form>input,
+form>button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+form {
+    position: relative;
+}
+
+.error {
+    color: red;
+    position: absolute;
+    margin-left: 20px;
+    width: 100%;
+}
+
+/* fonts */
+@font-face {
+    font-family: 'Flamenco-Regular';
+    src: url('../../Frontend/public/Assets/Fonts/Caveat_Brush-Flamenco/Flamenco/Flamenco-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arvo';
+    src: url('../../Frontend/public/Assets/Fonts/Arvo/Arvo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+

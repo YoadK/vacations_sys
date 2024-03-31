@@ -1,0 +1,50 @@
+.Header {
+    background-color: transparent;
+}
+/* .Header {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+} */
+
+/* 
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .center {
+    
+    text-align: center;         
+  }   */
+
+ 
+  
+  /* .right {
+    display: flex;
+    align-items: center;
+  } */
+  
+  /* //Adjust the menu position to the left */
+  /* .left .MuiButton-root {
+    justify-content: flex-start;
+  } */
+  
+  /* Adjust the menu position to the left */
+  /* .left .MuiPopover-paper {
+    margin-left: 0 !important;
+  } */
+
+
+
+  

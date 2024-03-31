@@ -1,0 +1,14 @@
+.Register{
+    background-image: url("../../../../public/Assets/images/beach-sand-boat-limestone-wallpaper-3e96b283dacf570c14dfd442ac160c2b.jpg");
+    background-size: cover;
+    height: 100%;
+}
+.Register .text-box {
+	width: 100%;
+    margin: 5px 0;
+} 
+.Register>form>h5{
+    text-align: center;
+}
+	
+

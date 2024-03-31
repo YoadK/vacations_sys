@@ -1,0 +1,125 @@
+.vacation-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("../../../../public/Assets/images/vecteezy_aerial-view-of-tranquil-beach-with-light-blue-transparent_31426415.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    min-height: 100vh;
+
+}
+
+.filtering-container {
+    display: flex;
+    /* Make filtering-container a flex container */
+    justify-content: space-between;
+    /* Space between h5 and filter */
+    align-items: center;
+    /* Align items vertically in the center */
+    border: 2px solid darkblue;
+    padding: 0px;
+}
+
+.vacation-card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    /* Allow this container to take up available space */
+}
+
+.pagination-container {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    font-family: "arvo", "cursive";
+
+}
+
+/* FAB  - floating action button for adding a vacation */
+/* Styles for FAB */
+.vacations-fab {
+    position: fixed;
+    /* Use absolute if you want it to scroll with the page */
+    bottom: 20px;
+    right: 20px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #007bff;
+    /* Example color */
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    /* More pronounced shadow */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.vacations-fab:hover {
+    background-color: #0056b3;
+    /* Darken color on hover */
+
+    /* Enlarge the button slightly on hover */
+    transform: scale(1.2);
+
+    /* Increase the shadow size on hover for a "lifted" effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.vacations-fab:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s ease-in-out;
+    transform: translateY(-10px) scale(0.9);
+}
+
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+
+    margin-left: -5px;
+    /* old value: -5px; */
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+    z-index: 1001;
+}
+
+/* No results after filtering- notification. */
+
+.filter-no-results {
+    color: red;
+    padding: 5px;
+    margin: 5px;
+    /* border: 2px dashed red; */
+    width: max-content;
+    text-align: center;
+}

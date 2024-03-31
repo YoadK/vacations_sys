@@ -1,0 +1,14 @@
+.Home {
+    background-image: url("../../../../public/Assets/images/san-andres-colombia-america-koralnen-island-in-the-caribbean-sea-summer-wallpaper-hd-2560×1440-wallpaper-dbf6dc6d0301df3985344bb92dcc9c60.jpg");
+    background-color: rgba(255, 255, 255, 0.2);
+    /* White with 60% opacity */
+    background-blend-mode: lighten;
+    /* Optional blending mode */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: inherit;
+
+
+}

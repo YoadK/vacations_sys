@@ -1,0 +1,6 @@
+.TotalCategories {
+    border: 1px solid;
+    padding: 10px;
+    display: inline-block;
+    transform: translate(0, 100px);
+}

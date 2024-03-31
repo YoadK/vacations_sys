@@ -1,0 +1,41 @@
+.AddVacation {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: url("../../../../public/Assets/images/brown-glass-bottle-beside-white-book-on-blue-and-white-textile-oj0zeY2Ltk4.jpg") ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    
+    font-size: 21px;
+    font-family: "arvo", "cursive";
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
+
+ form>button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} 

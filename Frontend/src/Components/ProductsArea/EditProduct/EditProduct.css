@@ -1,0 +1,7 @@
+.EditProduct .thumbnail {
+	width: 40px;
+    height: 40px;
+    position: absolute;
+    transform: translate(-40px, -5px);
+    border: 1px solid;
+}
