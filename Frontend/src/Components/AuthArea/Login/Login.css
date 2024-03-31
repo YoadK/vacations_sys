@@ -1,8 +1,7 @@
 .Login {
     background-image: url("../../../../public/Assets/images/beach-sand-boat-limestone-wallpaper-3e96b283dacf570c14dfd442ac160c2b.jpg");
     background-size: cover;
-    height: 100%;
-    
+    height: 100%;    
 }
 .Login>form>h5{
     text-align: center;
