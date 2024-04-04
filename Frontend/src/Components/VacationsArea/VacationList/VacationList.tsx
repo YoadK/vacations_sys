@@ -35,7 +35,10 @@ function VacationList(): JSX.Element {
         const fetchVacations = async () => {
             setIsLoading(true);
             try {
+                
                 if (user) {
+                    console.log ("current user is: " + user.firstName);
+                    
                     const fetchedVacations = await vacationsService.getAllVacationsWithLikes(user.id);
                     setAllVacations(fetchedVacations);
                     setPage(1); // Reset to first page on new data
@@ -57,6 +60,7 @@ function VacationList(): JSX.Element {
     }, [user]); // Dependencies → re-execute the useEffect to fetch vacations relevant to the current user
 
     useEffect(() => {
+        
         const filteredVacations = allVacations.filter(vac => {
             const startDate = moment(vac.start_date, 'DD.MM.YYYY').toDate();
             const endDate = moment(vac.end_date, 'DD.MM.YYYY').toDate();
@@ -91,17 +95,18 @@ function VacationList(): JSX.Element {
             console.error("An error occurred  when tried to navigate the 'vacations' page ", error);
         }
     };
+ 
 
     return (
         <div className="vacation-list-container">
             {user ? (
                 <>
-                    {user.role === '1' && (
+                    {user.role === ("admin" || "Admin") && (
                         <button className="vacations-fab" title="Add Vacation" onClick={handleFAB}>
                             +<span className="tooltip-text">Add Vacation</span>
                         </button>
                     )}
-
+                    
                     {isLoading ? (
                         <Spinner />
                     ) : (

@@ -32,6 +32,7 @@ class AuthController {
         try {
             const credentials = new CredentialsModel(request.body);
             const token = await authService.login(credentials);
+            
             response.json(token);
         }
         catch (err: any) { next(err); }

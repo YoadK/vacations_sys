@@ -29,6 +29,9 @@ class AuthService {
         // Init roleId as regular user:
         user.roleId = RoleModel.User;
 
+       //init role
+        user.role=RoleModel[user.roleId];
+
         // Hash password:
         user.password = cyber.hashPassword(user.password);
 
@@ -79,6 +82,9 @@ class AuthService {
         // Extract single user:
         const user = users[0];
 
+        // assign value for user's role
+        user.role=RoleModel[user.roleId];
+        
         // If no such user: 
         if (!user) throw new UnauthorizedError("Incorrect email or password.");
 

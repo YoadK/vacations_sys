@@ -5,6 +5,7 @@ import UserModel from "../Models/UserModel";
 function register(currentState: UserModel, action: PayloadAction<UserModel>): UserModel {
     const registeredUser = action.payload;
     const newState = registeredUser;
+    debugger;
     return newState;
 }
 
@@ -12,11 +13,13 @@ function register(currentState: UserModel, action: PayloadAction<UserModel>): Us
 function login(currentState: UserModel, action: PayloadAction<UserModel>): UserModel {
     const loggedInUser = action.payload;
     const newState = loggedInUser;
+    
     return newState;
 }
 
 // Reducer for logout:
 function logout(currentState: UserModel, action: PayloadAction): UserModel {
+    
     return null;
 }
 

@@ -13,12 +13,7 @@ class VacationsService {
     // Get all vacations with their matching 'likes'
     public async getAllVacationsWithLikes(userId: number): Promise<VacationModel[]> {
         try {
-            // // Delay for a specified number of milliseconds
-            // setTimeout(() => {
-            //     console.log("This message is shown after 10 seconds.");
-            // }, 10000); 
-            // debugger;
-            
+                      
             await dal.execute("START TRANSACTION"); // Begin transaction
 
             // Step 1: Retrieve data from the 'likes' table + Update 'vacations' table with 'totalLikesCount' and 'isLikedByCurrentUser' fields:
@@ -30,7 +25,7 @@ class VacationsService {
             await dal.execute("COMMIT"); // Commit the transaction
 
             const formattedVacations = vacations.map(vacation => {
-                debugger;
+                
                 return {
                     ...vacation,
                     start_date: HelperFunctions.getFormattedIsraeliDate(vacation.start_date),
@@ -147,7 +142,7 @@ class VacationsService {
 
     // Delete Vacation: 
     public async deleteVacation(id: number): Promise<void> {
-        debugger;
+        
         // Get image name from database for later delete:
         const imageName = await this.getImageName(id);
 

@@ -6,11 +6,16 @@ import "./Register.css";
 import { notify } from "../../../Utils/Notify";
 
 
+
 function Register(): JSX.Element {
 
-    const { register, handleSubmit } = useForm<UserModel>();
-
+    const { register, handleSubmit } = useForm<UserModel>();    
+ 
+     
     const navigate = useNavigate();
+
+
+  
 
     async function send(user: UserModel) {
         try {
@@ -23,12 +28,15 @@ function Register(): JSX.Element {
             notify.error(err);
         }
     }
-
+    
+    
+      
+    
     return (
         <div className="Register">
 
 
-            <form onSubmit={handleSubmit(send)}>
+            <form  onSubmit={handleSubmit(send)}>
                 <h5>Register</h5>
                 <label>First name:</label>
                 <input type="text" {...register("firstName")} />
@@ -37,10 +45,10 @@ function Register(): JSX.Element {
                 <input type="text" {...register("lastName")} />
 
                 <label>Email:</label>
-                <input type="email" {...register("email")} />
+                <input type="email" {...register("email")}  />
 
                 <label>Password:</label>
-                <input type="password" {...register("password")} />
+                <input type="password" {...register("password")}  />
 
                 <button>Register</button>
 

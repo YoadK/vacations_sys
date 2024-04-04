@@ -71,6 +71,8 @@ class AuthService {
 
         // Remove token from local storage: 
         sessionStorage.removeItem("token");
+
+     
     }
 
 }

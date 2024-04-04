@@ -2011,3 +2011,162 @@ Message: You are not authorized.
 Stack: undefined
 ---------------------------------------
 
+Time: Thu Apr 04 2024 15:50:55 GMT+0300 (Israel Daylight Time)
+Message: "lastName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 15:51:01 GMT+0300 (Israel Daylight Time)
+Message: "role" must be one of [Admin, User, Unknown]
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 15:51:39 GMT+0300 (Israel Daylight Time)
+Message: "role" failed custom validation because Cannot read properties of undefined (reading 'presence')
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 15:52:43 GMT+0300 (Israel Daylight Time)
+Message: "role" failed custom validation because Cannot read properties of undefined (reading 'presence')
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 15:52:50 GMT+0300 (Israel Daylight Time)
+Message: "role" failed custom validation because Cannot read properties of undefined (reading 'presence')
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 15:53:22 GMT+0300 (Israel Daylight Time)
+Message: "role" failed custom validation because Cannot read properties of undefined (reading 'presence')
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 15:53:52 GMT+0300 (Israel Daylight Time)
+Message: "role" failed custom validation because Cannot read properties of undefined (reading 'presence')
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 15:54:39 GMT+0300 (Israel Daylight Time)
+Message: "role" is not allowed to be empty
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 15:55:31 GMT+0300 (Israel Daylight Time)
+Message: "role" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 15:55:32 GMT+0300 (Israel Daylight Time)
+Message: "role" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 15:55:33 GMT+0300 (Israel Daylight Time)
+Message: "role" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 15:56:18 GMT+0300 (Israel Daylight Time)
+Message: "role" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 15:56:38 GMT+0300 (Israel Daylight Time)
+Message: "role" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 15:57:07 GMT+0300 (Israel Daylight Time)
+Message: "role" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 16:00:57 GMT+0300 (Israel Daylight Time)
+Message: "role" is not allowed
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 16:12:24 GMT+0300 (Israel Daylight Time)
+Message: Cannot read properties of undefined (reading 'roleId')
+Stack: TypeError: Cannot read properties of undefined (reading 'roleId')
+    at AuthService.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:86:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Apr 04 2024 18:50:09 GMT+0300 (Israel Daylight Time)
+Message: Cannot read properties of undefined (reading 'roleId')
+Stack: TypeError: Cannot read properties of undefined (reading 'roleId')
+    at AuthService.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:86:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Apr 04 2024 18:50:20 GMT+0300 (Israel Daylight Time)
+Message: Cannot read properties of undefined (reading 'roleId')
+Stack: TypeError: Cannot read properties of undefined (reading 'roleId')
+    at AuthService.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:86:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Apr 04 2024 18:50:57 GMT+0300 (Israel Daylight Time)
+Message: Cannot read properties of undefined (reading 'roleId')
+Stack: TypeError: Cannot read properties of undefined (reading 'roleId')
+    at AuthService.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:86:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Apr 04 2024 18:51:38 GMT+0300 (Israel Daylight Time)
+Message: Cannot read properties of undefined (reading 'roleId')
+Stack: TypeError: Cannot read properties of undefined (reading 'roleId')
+    at AuthService.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:86:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Apr 04 2024 18:52:33 GMT+0300 (Israel Daylight Time)
+Message: Cannot read properties of undefined (reading 'roleId')
+Stack: TypeError: Cannot read properties of undefined (reading 'roleId')
+    at AuthService.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:86:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Apr 04 2024 18:55:30 GMT+0300 (Israel Daylight Time)
+Message: "firstName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 18:56:13 GMT+0300 (Israel Daylight Time)
+Message: "firstName" is not allowed to be empty
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 18:56:16 GMT+0300 (Israel Daylight Time)
+Message: "firstName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 18:56:23 GMT+0300 (Israel Daylight Time)
+Message: "lastName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 18:56:26 GMT+0300 (Israel Daylight Time)
+Message: "email" is not allowed to be empty
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 04 2024 18:57:59 GMT+0300 (Israel Daylight Time)
+Message: "email" must be a valid email
+Stack: undefined
+---------------------------------------
+

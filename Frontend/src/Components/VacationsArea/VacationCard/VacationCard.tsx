@@ -21,6 +21,8 @@ function VacationCard({ vacation }: VacationCardProps): JSX.Element {
 
     const user = useSelector<AppState, UserModel>(state => state.user);
    
+    
+   
     const userId = user.id;
     
 
@@ -63,7 +65,8 @@ function VacationCard({ vacation }: VacationCardProps): JSX.Element {
     };
 
     const handleImageError = () => setImageErrorCount(count => count + 1);
-
+    
+  
     return (
         <div className="vacation-card-container">
             <div className="vacation-card">
@@ -73,8 +76,9 @@ function VacationCard({ vacation }: VacationCardProps): JSX.Element {
                         alt={`${vacation.destination} ${vacation.imageUrl}`}
                         onError={handleImageError}
                     />
-                    {user && user.role === '1' && (
+                    {user && (user.role === ("Admin" || "admin")) && (
                         <>
+                            
                             <button className="edit-button" onClick={handleEdit}>Edit</button>
                             <button className="delete-button" onClick={handleDelete}>Delete</button>
                         </>
@@ -118,6 +122,7 @@ function VacationCard({ vacation }: VacationCardProps): JSX.Element {
             </div>
         </div>
     );
+    
 }
 
 export default VacationCard;

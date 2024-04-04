@@ -2,6 +2,7 @@ import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 import { VacationModel } from "../Models/vacation-model";
 
 
+
 // Our slice's data is vacations array.
 
 // Reducer for adding all vacations to the slice: 
