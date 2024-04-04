@@ -1,190 +1,219 @@
+.vacation-card-container {}
 
-.vacation-card-container { 
-   
-} 
-
-.vacation-card {   
-   border: 1px solid;
-   display: flex;
-   justify-content: flex-start;    
-   align-items: stretch;
-   flex-direction: column;    
-   margin: 10px;     
-   border-radius: 8px;
-   box-shadow: 3px 3px 5px rgba(255, 0, 0, 0.3);
-   /* overflow: auto; */
-   width: 300px;
-   height: 450px;
-   position: relative; 
-   font-size: 10px ;
+.vacation-card {
+    border: 1px solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(255, 0, 0, 0.3);
+    /* overflow: auto; */
+    width: 300px;
+    height: 450px;
+    position: relative;
+    font-size: 10px;
 }
 
 /* Additional styling for vacation card elements */
 /* .vacation-image, .vacation-details, etc. */
 .vacation-image {
-   position: relative;
-   overflow: hidden;
-   height: 200px; /* Fixed height */
-   width: 100%; /* Ensure the image container fills the card width */
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    /* Fixed height */
+    width: 100%;
+    /* Ensure the image container fills the card width */
+   
 }
 
 .vacation-image img {
-   width: 100%;
-   height: 100%;
-   object-fit: cover; /* Maintain aspect ratio and fill the container */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Maintain aspect ratio and fill the container */
 }
 
-/* Style for edit and delete buttons */
-.edit-button, .delete-button {
-    position: absolute;
-    top: 10px;
-    right: 10px; /* Start with the right for the first button */
-    padding: 5px;
-    margin-left: 5px; /* Space between buttons */
-    z-index: 10; /* Ensure buttons are above the image */
-}
-
-.delete-button {
-    right: 40px; /* Move delete button a bit more to the left */
-}
-
-/* test */
-.edit-button {
-    color: #404040;
-    background-color: #8AA6DE;
-    box-shadow: 0px 4px #596B8F;
-}
-
-.edit-button:hover {
-    background-color: #9AB9F7;
-}
-
-.edit-button:focus {
-    outline: none;
-    box-shadow: none;
-    margin-bottom: -3px;
-    opacity: .5;
-}
-
-
-.delete-button {
-    color: #404040;
-    background-color: #FF7C76;
-    box-shadow: 0px 4px #AD453A;
-}
-
-.delete-button:hover {
-    background-color: #F8908E;
-}
-
-.delete-button:focus {
-    outline: none;
-    box-shadow: none;
-    margin-bottom: -3px;
-    opacity: .5;
-}
 
 
 .vacation-image i {
-   position: absolute;
-   top: 10px;
-   left: 10px;
-   font-size: 18px; /* Adjusted */
-   color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    /* Adjusted */
+    color: #fff;
 }
 
 .vacation-details {
-   padding: 10px;
-   flex-grow: 1; /* Allow details to grow and fill remaining space */
-   display: flex;
-   flex-direction: column;
+    padding: 10px;
+    flex-grow: 1;
+    /* Allow details to grow and fill remaining space */
+    display: flex;
+    flex-direction: column;
 }
 
 .vacation-details h2 {
-   margin-top: 0;
+    margin-top: 0;
 }
 
 .duration {
-   height: auto; /* Remove fixed height */
-   margin-bottom: 10px;
+    height: auto;
+    /* Remove fixed height */
+    margin-bottom: 10px;
 }
 
 .duration p {
-   margin: 0;
-   padding: 5px; /* Adjusted */
-   background-color: lightblue; /* Adjusted */
-   border-radius: 5px; /* Adjusted */
+    margin: 0;
+    padding: 5px;
+    /* Adjusted */
+    background-color: lightblue;
+    /* Adjusted */
+    border-radius: 5px;
+    /* Adjusted */
 }
 
 .description {
-   height: auto; /* Remove fixed height */
-   flex-grow: 1; /* Allow description to grow and fill remaining space */
-   overflow: auto;
+    height: auto;
+    /* Remove fixed height */
+    flex-grow: 1;
+    /* Allow description to grow and fill remaining space */
+    overflow: auto;
 }
 
 .description p {
-   margin: 0; /* Adjusted */
+    margin: 0;
+    /* Adjusted */
 }
 
 .price {
-   height: auto; /* Remove fixed height */
-   margin-top: 10px;
-   text-align: center;
+    height: auto;
+    /* Remove fixed height */
+    margin-top: 10px;
+    text-align: center;
 }
 
 .price button {
-   padding: 7px 25px;
-   width: auto; /* Remove fixed width */
-   background-color: #8fc2f9;
-   border-radius: 25px;
-   box-shadow: 1px 1px 4px 3px rgba(0, 90, 90);
+    padding: 7px 25px;
+    width: auto;
+    /* Remove fixed width */
+    background-color: #8fc2f9;
+    border-radius: 25px;
+    box-shadow: 1px 1px 4px 3px rgba(0, 90, 90);
 }
 
 .price button:hover {
-   background-color: #837ef4
+    background-color: #837ef4
 }
 
 .fas.fa-map-marker-alt img {
-   width: 16px; /* Adjusted */
-   height: 16px; /* Adjusted */
+    width: 16px;
+    /* Adjusted */
+    height: 16px;
+    /* Adjusted */
 }
 
 .far.fa-calendar-alt img {
-   width: 16px; /* Adjusted */
-   height: 16px; /* Adjusted */
+    width: 16px;
+    /* Adjusted */
+    height: 16px;
+    /* Adjusted */
 }
 
 .fas.fa-info-circle img {
-   width: 16px; /* Adjusted */
-   height: 16px; /* Adjusted */
+    width: 16px;
+    /* Adjusted */
+    height: 16px;
+    /* Adjusted */
 }
 
 /* Likes button */
 
 .like-btn {
-   position: absolute;
-   top: 10px;
-   left: 10px;
-   display: flex;
-   align-items: center;
-   color: black; /* Default color */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    color: black;
+    /* Default color */
 }
 
-.like-btn.liked >.badge {
-   background-color: red; /* Color when liked */
+.like-btn.liked>.badge {
+    background-color: red;
+    /* Color when liked */
 }
 
 .like-btn .badge {
-   margin-left: 5px;
-   background-color: #007bff;
-   color: #fff;
-   padding: 2px 6px;
-   border-radius: 50%;
+    margin-left: 5px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 50%;
 }
 
-.image-error{
-   display: block;
-   margin:auto;
-   color:red;
-   width: 50%;
+.image-error {
+    display: block;
+    margin: auto;
+    color: red;
+    width: 50%;
 }
+
+
+/* Delete and Edit buttons design */
+
+.edit-button,
+.delete-button {
+    position: absolute; /* Absolute position relative to .vacation-image */
+    top: 12px; /* Adjust as needed */
+    right: 12px; /* Adjust as needed */
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+    background-color: transparent; /* Assuming you want no background color */
+    border: none; /* Assuming you want no border */
+    cursor: pointer;
+
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Initial subtle shadow */
+
+    
+}
+
+.edit-button {
+    background-image: url("../../../Assets/icons/edit.png"); /* Adjust the path as needed */
+    background-size: cover;
+    right: 50px; /* Adjust the right position so it does not overlap with the delete button */
+    height: 22px;
+    width: 22px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: 1px dotted whitesmoke;
+}
+.edit-button:hover {
+    /* background-color: #e0e0e0; Light grey background on hover */
+    transform: scale(1.1); /* Slightly increase size */
+    opacity: 0.8; /* Slightly transparent on hover */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); Subtle shadow */
+
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+}
+
+.delete-button {
+    background-image: url("../../../Assets/icons/trash.png"); /* Adjust the path as needed */
+    background-size: cover;
+    height: 22px;
+    width: 22px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: 1px dotted whitesmoke;
+}
+.delete-button:hover {
+    /* background-color: #e0e0e0; Light grey background on hover */
+    transform: scale(1.1); /* Slightly increase size */
+    opacity: 0.8; /* Slightly transparent on hover */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); Subtle shadow */
+
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+}
+

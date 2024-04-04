@@ -123,3 +123,13 @@ h5 {
     width: max-content;
     text-align: center;
 }
+
+.loginIsNeeded {
+    position: absolute; /* Position it relative to the nearest positioned ancestor */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center it horizontally and vertically */
+    /* You might also want to add: */
+    text-align: center; /* Center the content within the div */
+  }
+  

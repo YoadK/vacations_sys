@@ -27,21 +27,30 @@ function VacationList(): JSX.Element {
     // for vacations filtering purposes...
     const [filters, setFilters] = useState({ notStarted: false, active: false, likedByCurrentUser: false });
     const [allFilteredVacations, setAllFilteredVacations] = useState<VacationModel[]>([]);
+    // spinner active when isloading===true
+    const [isLoading, setIsLoading] = useState(false);
 
     // Fetching data
     useEffect(() => {
         const fetchVacations = async () => {
+            setIsLoading(true);
             try {
                 if (user) {
                     const fetchedVacations = await vacationsService.getAllVacationsWithLikes(user.id);
                     setAllVacations(fetchedVacations);
                     setPage(1); // Reset to first page on new data
                 } else {
+                    notify.error("You must be logged in to view vacations.");
                     setAllVacations([]);
+                    return;
                 }
             } catch (err) {
                 notify.error("Error fetching vacations: " + err);
             }
+            finally {
+                setIsLoading(false); // End loading
+            }
+
         };
 
         fetchVacations();
@@ -85,41 +94,58 @@ function VacationList(): JSX.Element {
 
     return (
         <div className="vacation-list-container">
+            {user ? (
+                <>
+                    {user.role === '1' && (
+                        <button className="vacations-fab" title="Add Vacation" onClick={handleFAB}>
+                            +<span className="tooltip-text">Add Vacation</span>
+                        </button>
+                    )}
 
-            <button className="vacations-fab" title="Add Vacation" onClick={handleFAB}>
-                +
-                <span className="tooltip-text">Add Vacation</span>
-            </button>
+                    {isLoading ? (
+                        <Spinner />
+                    ) : (
+                        <>
+                            {/* Display the number of filtered results */}
+                            <div className="filtering-container">
+                                <h5>Current Results: {allFilteredVacations.length}</h5>
+                                <FilterVacationsElement onFilterChange={setFilters} />
+                            </div>
 
-            {(allVacations.length === 0) && <Spinner />}
+                            <br />
+                            <br />
+                            <h5 className="filter-no-results">
+                                {allFilteredVacations.length === 0
+                                    ? "No results were found (filters might be too strict)"
+                                    : ""}
+                            </h5>
+                            <div className="vacation-card-container">
+                                {vacationsToDisplayOnCurrentPage.map(vacation => (
+                                    <VacationCard key={vacation.id} vacation={vacation} />
+                                ))}
 
-
-            {/* Display the number of filtered results */}
-            <div className="filtering-container">
-                <h5>Current Results: {allFilteredVacations.length}</h5>
-                <FilterVacationsElement onFilterChange={setFilters} />
-            </div>
-
-            <br />
-            <br />
-            <h5 className="filter-no-results">{allFilteredVacations.length === 0 ? "No results were found (filters might be too strict)" : ""}</h5>
-            <div className="vacation-card-container">
-                {vacationsToDisplayOnCurrentPage.map(vacation => (
-                    <VacationCard key={vacation.id} vacation={vacation} />
-                ))}
-
-                <br />
-                <div className="pagination-container">
-                    <Pagination_ClientSide
-                        totalCount={allFilteredVacations.length}
-                        itemsPerPage={ITEMS_PER_PAGE}
-                        currentPage={page}
-                        onPageChange={setPage}
-                    />
+                                <br />
+                                <div className="pagination-container">
+                                    <Pagination_ClientSide
+                                        totalCount={allFilteredVacations.length}
+                                        itemsPerPage={ITEMS_PER_PAGE}
+                                        currentPage={page}
+                                        onPageChange={setPage}
+                                    />
+                                </div>
+                            </div>
+                        </>
+                    )}
+                </>
+            ) : (
+                <div className="loginIsNeeded">
+                    Please <button onClick={() => navigate('/login')}>login here</button> to view vacations. <br/>
+                    If you're not registered, please <button onClick={() => navigate('/register')}>register here</button>
                 </div>
-            </div>
+            )}
         </div>
     );
+
 }
 
 export default VacationList;

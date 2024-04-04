@@ -20,7 +20,9 @@ function VacationCard({ vacation }: VacationCardProps): JSX.Element {
     const navigate = useNavigate();
 
     const user = useSelector<AppState, UserModel>(state => state.user);
+   
     const userId = user.id;
+    
 
     const handleLike = async () => {
         const newIsLiked = !isLiked;
@@ -45,19 +47,19 @@ function VacationCard({ vacation }: VacationCardProps): JSX.Element {
         try {
             // ask the user to confirm...
             const sure = window.confirm("Are you sure?");
-            if(!sure) return;
+            if (!sure) return;
 
             vacationsService.deleteVacation(vacation.id);
             notify.success("vacation has been deleted.");
             navigate("/vacations");
         }
-        catch(err: any) {
+        catch (err: any) {
             // notify.error(err);
             notify.error("Failed to delete vacation: " + err.message);
             console.error("Error deleting vacation:", err);
         }
-        
-       
+
+
     };
 
     const handleImageError = () => setImageErrorCount(count => count + 1);
@@ -71,21 +73,28 @@ function VacationCard({ vacation }: VacationCardProps): JSX.Element {
                         alt={`${vacation.destination} ${vacation.imageUrl}`}
                         onError={handleImageError}
                     />
-                    <button className="edit-button" onClick={handleEdit}>Edit</button>
-                    <button className="delete-button" onClick={handleDelete}>Delete</button>
+                    {user && user.role === '1' && (
+                        <>
+                            <button className="edit-button" onClick={handleEdit}>Edit</button>
+                            <button className="delete-button" onClick={handleDelete}>Delete</button>
+                        </>
+                    )}
+
+
+
                 </div>
                 <button className={`like-btn ${isLiked ? 'liked' : ''}`} onClick={handleLike}>
                     Likes: <span className="badge">{likes}</span>
                 </button>
                 <div className="vacation-details">
-                <h2>
+                    <h2>
                         <i className="fas fa-map-marker-alt">
                             <img src="../../../Assets/icons/land-layer-location.png" alt="Location Icon" />
                         </i>{" "}
                         {vacation.destination}&nbsp;
                     </h2>
                     <div className="duration">
-                    <span>
+                        <span>
                             <i className="far fa-calendar-alt">
                                 <img src="../../../Assets/icons/calendar-days.png" alt="calendar-days icon" />
                             </i>
@@ -96,13 +105,13 @@ function VacationCard({ vacation }: VacationCardProps): JSX.Element {
                         </span>
                     </div>
                     <div className="description">
-                    <i className="fas fa-info-circle">
+                        <i className="fas fa-info-circle">
                             <img src="../../Assets/icons/comment-info.png" alt="description-alt icon" />
                         </i>
                         <p>{vacation.description}</p>
                     </div>
                     <div className="price">
-                    <i className="fas fa-money-bill-wave"></i>
+                        <i className="fas fa-money-bill-wave"></i>
                         <button>Price: {vacation.price}</button>
                     </div>
                 </div>
