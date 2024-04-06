@@ -5,6 +5,7 @@ import { notify } from "../../../Utils/Notify";
 import "./EditVacation.css";
 import { useForm } from "react-hook-form";
 import { useEffect, useState } from "react";
+import HelperFunctions from "../../HelperFunctionsArea/Helperfunctions";
 
 function EditVacation(): JSX.Element {
 
@@ -19,10 +20,16 @@ function EditVacation(): JSX.Element {
             .then(vacation => {
                 setValue("destination", vacation.destination); // Initial value
                 setValue("description", vacation.description); // Initial value
-                setValue("start_date", vacation.start_date); // Initial value
-                setValue("end_date", vacation.end_date); // Initial value
+                
+                const vacation_start_date=HelperFunctions.getFormattedIsraeliDate(vacation.start_date);
+                setValue("start_date", vacation_start_date); // Initial value
+
+                const vacation_end_date=HelperFunctions.getFormattedIsraeliDate(vacation.end_date);
+                setValue("end_date", vacation_end_date); // Initial value
+                
                 setValue("price", vacation.price); // Initial value                
                 setImageUrl(vacation.imageUrl); // Initial value
+                debugger;
             })
             .catch(err => notify.error(err));
     }, []);

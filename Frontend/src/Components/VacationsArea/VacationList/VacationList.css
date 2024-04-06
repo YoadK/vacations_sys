@@ -131,5 +131,6 @@ h5 {
     transform: translate(-50%, -50%); /* Center it horizontally and vertically */
     /* You might also want to add: */
     text-align: center; /* Center the content within the div */
+    font-weight: bold;
   }
   

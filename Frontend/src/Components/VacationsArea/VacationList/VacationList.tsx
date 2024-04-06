@@ -13,6 +13,7 @@ import { useEffect, useState } from "react";
 import FilterVacationsElement from "../../FilterVacationsElement/FilterVacationsElement";
 import moment from 'moment'; //manage date better than "new Date()" 
 import { useNavigate } from "react-router-dom";
+import LoginIsNeeded from "../../SharedArea/LoginIsNeeded/LoginIsNeeded";
 
 
 
@@ -142,11 +143,8 @@ function VacationList(): JSX.Element {
                         </>
                     )}
                 </>
-            ) : (
-                <div className="loginIsNeeded">
-                    Please <button onClick={() => navigate('/login')}>login here</button> to view vacations. <br/>
-                    If you're not registered, please <button onClick={() => navigate('/register')}>register here</button>
-                </div>
+            ) : (                
+                <LoginIsNeeded/>
             )}
         </div>
     );
