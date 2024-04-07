@@ -11,9 +11,10 @@ import { notify } from "../../../Utils/Notify";
 
 type VacationCardProps = {
     vacation: VacationModel;
+    onDelete: (id: number) => void; // Add this line
 };
 
-function VacationCard({ vacation }: VacationCardProps): JSX.Element {
+function VacationCard({ vacation,onDelete  }: VacationCardProps): JSX.Element {
     const [likes, setLikes] = useState<number>(vacation.totalLikesCount);
     const [isLiked, setIsLiked] = useState<boolean>(vacation.isLikedByCurrentUser);
     const [imageErrorCount, setImageErrorCount] = useState<number>(0);
@@ -45,14 +46,21 @@ function VacationCard({ vacation }: VacationCardProps): JSX.Element {
     };
 
 
-    const handleDelete = () => {
+     const handleDelete = async () => {
         try {
             // ask the user to confirm...
             const sure = window.confirm("Are you sure?");
             if (!sure) return;
 
             vacationsService.deleteVacation(vacation.id);
-            notify.success("vacation has been deleted.");
+            
+
+               // Refetch the vacations data
+        await vacationsService.getAllVacationsWithLikes(userId);
+        notify.success("vacation has been deleted.");
+        
+        onDelete(vacation.id); // // This line will trigger the update in the parent component
+
             navigate("/vacations");
         }
         catch (err: any) {

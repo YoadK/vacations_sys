@@ -46,10 +46,22 @@ class HelperFunctions {
         return formatter.format(date);
     }
 
-    public static formatDateToISO(dateString:string) {
-        const [day, month, year] = dateString.split('.');
-        return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
-      }
+    public static formatDateToISO(dateString:string):string {
+        // Ensure the input is in the expected format
+        if (!dateString || !dateString.match(/^\d{2}\.\d{2}\.\d{4}$/)) {
+            console.error('Invalid date format:', dateString);
+            return '';
+        }
+    
+        const parts = dateString.split('.');
+        const day = parts[0];
+        const month = parts[1];
+        const year = parts[2];
+    
+        // Construct the ISO date string in yyyy-MM-dd format
+        return `${year}-${month}-${day}`;
+    }
+    
     
 }
  export default HelperFunctions;

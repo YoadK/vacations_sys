@@ -36,10 +36,8 @@ function VacationList(): JSX.Element {
         const fetchVacations = async () => {
             setIsLoading(true);
             try {
-                
                 if (user) {
-                    console.log ("current user is: " + user.firstName);
-                    
+                    console.log("current user is: " + user.firstName);
                     const fetchedVacations = await vacationsService.getAllVacationsWithLikes(user.id);
                     setAllVacations(fetchedVacations);
                     setPage(1); // Reset to first page on new data
@@ -54,14 +52,12 @@ function VacationList(): JSX.Element {
             finally {
                 setIsLoading(false); // End loading
             }
-
         };
 
         fetchVacations();
     }, [user]); // Dependencies → re-execute the useEffect to fetch vacations relevant to the current user
 
     useEffect(() => {
-        
         const filteredVacations = allVacations.filter(vac => {
             const startDate = moment(vac.start_date, 'DD.MM.YYYY').toDate();
             const endDate = moment(vac.end_date, 'DD.MM.YYYY').toDate();
@@ -96,18 +92,22 @@ function VacationList(): JSX.Element {
             console.error("An error occurred  when tried to navigate the 'vacations' page ", error);
         }
     };
- 
+
+    //updating current vacations list when card-deletion occurs
+    const handleVacationDeleted = (deletedVacationId: number) => {
+        setAllVacations(allVacations.filter(vacation => vacation.id !== deletedVacationId));
+    };
 
     return (
         <div className="vacation-list-container">
             {user ? (
                 <>
-                    {user.role === ("admin" || "Admin") && (
+                    {(user.role === "admin") ||(user.role=== "Admin") && (
                         <button className="vacations-fab" title="Add Vacation" onClick={handleFAB}>
                             +<span className="tooltip-text">Add Vacation</span>
                         </button>
                     )}
-                    
+
                     {isLoading ? (
                         <Spinner />
                     ) : (
@@ -127,7 +127,7 @@ function VacationList(): JSX.Element {
                             </h5>
                             <div className="vacation-card-container">
                                 {vacationsToDisplayOnCurrentPage.map(vacation => (
-                                    <VacationCard key={vacation.id} vacation={vacation} />
+                                    <VacationCard key={vacation.id} vacation={vacation} onDelete={handleVacationDeleted}  />// Passing the delete handler as a prop
                                 ))}
 
                                 <br />
@@ -143,8 +143,8 @@ function VacationList(): JSX.Element {
                         </>
                     )}
                 </>
-            ) : (                
-                <LoginIsNeeded/>
+            ) : (
+                <LoginIsNeeded />
             )}
         </div>
     );

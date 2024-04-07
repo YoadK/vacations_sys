@@ -99,10 +99,12 @@ class VacationsService {
     // Update vacation: 
     public async updateVacation(vacation: VacationModel): Promise<void> {
 
+
+        
         // Send the update to backend:
         const response = await axios.put<VacationModel>(appConfig.vacationsUrl + vacation.id, vacation, appConfig.axiosOptions);
 
-
+        
 
         // Extract the updated vacation from the backend:
         const updatedVacation = response.data;

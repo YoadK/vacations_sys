@@ -15,6 +15,7 @@ import Login from "../../AuthArea/Login/Login";
 import VacationList from "../../VacationsArea/VacationList/VacationList";
 import AddVacation from "../../VacationsArea/AddVacation/AddVacation";
 import EditVacation from "../../VacationsArea/EditVacation/EditVacation";
+import ViewReports from "../../ReportsArea/ViewReports/ViewReports";
 
 function Routing(): JSX.Element {
 
@@ -70,6 +71,9 @@ function Routing(): JSX.Element {
 
                 {/* Login: */}
                 <Route path="/login" element={<Login />} />
+
+                 {/* Reports: */}
+                 <Route path="/viewReports" element={<ViewReports />} />
 
                 {/* Default Route: */}
                 {/* <Route path="/" element={<Home />} /> */}

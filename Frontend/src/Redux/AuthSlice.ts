@@ -5,7 +5,7 @@ import UserModel from "../Models/UserModel";
 function register(currentState: UserModel, action: PayloadAction<UserModel>): UserModel {
     const registeredUser = action.payload;
     const newState = registeredUser;
-    debugger;
+   
     return newState;
 }
 

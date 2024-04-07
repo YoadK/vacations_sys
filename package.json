@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@canvasjs/charts": "^3.8.0",
+    "@canvasjs/react-charts": "^1.0.2",
+    "@canvasjs/react-stockcharts": "^1.0.2"
+  }
+}

@@ -7,7 +7,7 @@ function LoginIsNeeded(): JSX.Element {
     
     return (
         <div className="LoginIsNeeded">			
-                    Please <button onClick={() => navigate('/login')}>login here</button> to view vacations. <br/>
+                    Please <button onClick={() => navigate('/login')}>login here</button> to use this feature. <br/>
                     If you're not registered, please <button onClick={() => navigate('/register')}>register here</button>
                
         </div>

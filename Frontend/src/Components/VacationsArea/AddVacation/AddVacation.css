@@ -49,3 +49,22 @@ textarea {
     text-align: center; /* Center the content within the div */
     font-weight: bold;
   }
+
+  /* design for the cancel button */
+.cancel-button-add-vacation {
+    background-color: white;
+    color: #333;
+    margin-top: 3px;
+}
+
+.file-input-add-vacation {
+    width: 100%; /* Full width of the form but respects padding and border */
+    max-width: 100%; /* Ensures it doesn’t grow beyond the form's width */
+    margin: 0px ;
+    padding: 8px;
+    box-sizing: border-box; /* Includes padding and border in the element's total width */
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -26,6 +26,13 @@ function MyMenu(): JSX.Element {
                             
                         </ul>
                     </li>
+                    <li><a href="#">Reports Area <img className= "reports-icon" src="../../../Assets/icons/report2.png" /></a>
+                        <ul className="dropdown">
+                            <li><Link to="/viewReports">View reports</Link></li>
+                            
+                            
+                        </ul>
+                    </li>
                     <li><a href="#">About  <img className= "about-icon" src="../../../Assets/icons/about.png" /></a></li>
                     <li><a href="#">Contact  <img className= "contact-icon" src="../../../Assets/icons/contact.png" /></a></li>
                     <li><a href="#">User Account 🧑/🧒</a>
