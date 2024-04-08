@@ -46,14 +46,14 @@ form {
 /* fonts */
 @font-face {
     font-family: 'Flamenco-Regular';
-    src: url('../../Frontend/public/Assets/Fonts/Caveat_Brush-Flamenco/Flamenco/Flamenco-Regular.ttf') format('truetype');
+    src: url('../../Frontend/src/Assets/Fonts/Caveat_Brush-Flamenco/Flamenco/Flamenco-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Arvo';
-    src: url('../../Frontend/public/Assets/Fonts/Arvo/Arvo-Regular.ttf') format('truetype');
+    src: url('../../Frontend/src/Assets/Fonts/Arvo/Arvo-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

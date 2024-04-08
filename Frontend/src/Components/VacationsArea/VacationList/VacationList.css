@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-image: url("../../../../public/Assets/images/vecteezy_aerial-view-of-tranquil-beach-with-light-blue-transparent_31426415.jpg");
+    background-image: url("../../../../src/Assets/images/vecteezy_aerial-view-of-tranquil-beach-with-light-blue-transparent_31426415.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10px;

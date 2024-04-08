@@ -11,7 +11,7 @@ function ViewReports(): JSX.Element {
     const user = useSelector<AppState, UserModel>(state => state.user);
 
     const userId = user.id;
-    debugger;
+    
     useEffect(() => {
         const fetchVacations = async () => {
             try {

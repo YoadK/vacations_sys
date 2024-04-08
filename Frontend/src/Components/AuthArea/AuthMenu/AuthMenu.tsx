@@ -5,6 +5,9 @@ import { AppState } from "../../../Redux/AppState";
 import { authService } from "../../../Services/AuthService";
 import "./AuthMenu.css";
 import { notify } from "../../../Utils/Notify";
+import exitIcon from "../../../../src/Assets/icons/exit.png";
+import signinIcon from "../../../../src/Assets/icons/sign-in-alt.png";
+import registerIcon from "../../../../src/Assets/icons/notebook.png";
 
 function AuthMenu(): JSX.Element {
 
@@ -18,15 +21,10 @@ function AuthMenu(): JSX.Element {
     if (user) {
         return (
             <div className="AuthMenu">
-                Hello {user.firstName} {user.lastName}<br/>
-                
-                <img src="../../../Assets/icons/exit.png" />&nbsp;&nbsp;
+                Hello {user.firstName} {user.lastName}<br/>                
+                <img src={exitIcon} />&nbsp;&nbsp;
                 <NavLink to="/home" onClick={logMeOut}>Logout</NavLink>
             </div>
-
-
-
-          
 
         );
     }
@@ -34,9 +32,9 @@ function AuthMenu(): JSX.Element {
     return (
         <div className="AuthMenu">
             Hello Guest <br/>
-            <img src="../../../Assets/icons/sign-in-alt.png" />&nbsp;
+            <img src={signinIcon} />&nbsp;
             <NavLink to="/login">Login | </NavLink>&nbsp;
-            <img src="../../../Assets/icons/notebook.png" />&nbsp;
+            <img src={registerIcon} />&nbsp;
             <NavLink to="/register">Register</NavLink>
 
         </div>

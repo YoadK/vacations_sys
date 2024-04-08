@@ -113,9 +113,14 @@ nav {
     background-color: white; /* or any other color */
     
 }
-.home-icon, .vacation-icon, .about-icon, .contact-icon, .reports-icon{
+.home-icon, .vacation-icon, .about-icon, .contact-icon,  .csv-reports-icon{
     height: 20px;
     width:20px;
     padding: 1px;
 
+}
+.reports-icon{
+    height: 25px;
+    width:25px;
+    padding: 1px;
 }

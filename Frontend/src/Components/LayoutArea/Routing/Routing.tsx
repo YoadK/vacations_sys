@@ -16,6 +16,7 @@ import VacationList from "../../VacationsArea/VacationList/VacationList";
 import AddVacation from "../../VacationsArea/AddVacation/AddVacation";
 import EditVacation from "../../VacationsArea/EditVacation/EditVacation";
 import ViewReports from "../../ReportsArea/ViewReports/ViewReports";
+import { CreateCSV } from "../../CSV-Area/createCSV/createCSV";
 
 function Routing(): JSX.Element {
 
@@ -74,6 +75,9 @@ function Routing(): JSX.Element {
 
                  {/* Reports: */}
                  <Route path="/viewReports" element={<ViewReports />} />
+
+                  {/* create CSV file: */}
+                  <Route path="/create-csv-file" element={<CreateCSV />} />
 
                 {/* Default Route: */}
                 {/* <Route path="/" element={<Home />} /> */}

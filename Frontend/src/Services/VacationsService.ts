@@ -10,21 +10,20 @@ class VacationsService {
     // Get all vacations With Likes from backend:
     public async getAllVacationsWithLikes(userId: number): Promise<VacationModel[]> {
 
-
         try {
             // Get all vacations from backend: 
             const response = await axios.get<VacationModel[]>(appConfig.vacationsWithLikesUrl);
 
             // Extract vacations from the response:
             const vacations = response.data;
-            
+
             // Create action for init all vacations: 
             const action = vacationActionCreators.initAll(vacations);
-            //here i can check the global state's 'vacations' : let vacations = appStore.getState().vacations;// IT GETS THE OLD vacations array!
+
             // Send action to global state: 
             appStore.dispatch(action);
 
-            
+
             // Return vacations to the component:
             return vacations;
         }
@@ -82,7 +81,7 @@ class VacationsService {
 
     // Add vacation: 
     public async addVacation(vacation: VacationModel): Promise<void> {
-        
+
         // Add the new vacation to backend:
         const response = await axios.post<VacationModel>(appConfig.vacationsUrl, vacation, appConfig.axiosOptions);
 
@@ -99,12 +98,8 @@ class VacationsService {
     // Update vacation: 
     public async updateVacation(vacation: VacationModel): Promise<void> {
 
-
-        
         // Send the update to backend:
         const response = await axios.put<VacationModel>(appConfig.vacationsUrl + vacation.id, vacation, appConfig.axiosOptions);
-
-        
 
         // Extract the updated vacation from the backend:
         const updatedVacation = response.data;
@@ -147,16 +142,10 @@ class VacationsService {
             // Create action for updating a vacation in the global state: 
             const action = vacationActionCreators.updateLikes_SLC({ vacationId, totalLikesCount, isLikedByCurrentUser })
             appStore.dispatch(action);
-
-
-
         }
         catch (error) {
             console.error("Error updating like count:", error);
-
         }
     }
-
 }
-
 export const vacationsService = new VacationsService();

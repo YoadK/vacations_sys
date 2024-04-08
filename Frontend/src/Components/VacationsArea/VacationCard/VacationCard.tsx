@@ -8,6 +8,9 @@ import HelperFunctions from "../../HelperFunctionsArea/Helperfunctions";
 import UserModel from "../../../Models/UserModel";
 import { useNavigate } from "react-router-dom";
 import { notify } from "../../../Utils/Notify";
+import locationIcon from "../../../Assets/icons/land-layer-location.png";
+import calendarIcon from "../../../Assets/icons/calendar-days.png";
+import informationIcon from "../../../Assets/icons/comment-info.png";
 
 type VacationCardProps = {
     vacation: VacationModel;
@@ -86,9 +89,12 @@ function VacationCard({ vacation,onDelete  }: VacationCardProps): JSX.Element {
                     />
                     {user && (user.role === ("Admin" || "admin")) && (
                         <>
-                            
-                            <button className="edit-button" onClick={handleEdit}>Edit</button>
-                            <button className="delete-button" onClick={handleDelete}>Delete</button>
+                           
+                            <button className="edit-button" onClick={handleEdit} title="Edit vacation" ></button>
+                                
+                                     
+                                
+                            <button className="delete-button" onClick={handleDelete} title="Delete vacation"></button>
                         </>
                     )}
 
@@ -101,14 +107,14 @@ function VacationCard({ vacation,onDelete  }: VacationCardProps): JSX.Element {
                 <div className="vacation-details">
                     <h2>
                         <i className="fas fa-map-marker-alt">
-                            <img src="../../../Assets/icons/land-layer-location.png" alt="Location Icon" />
+                            <img src={locationIcon} alt="Location Icon" />
                         </i>{" "}
                         {vacation.destination}&nbsp;
                     </h2>
                     <div className="duration">
                         <span>
                             <i className="far fa-calendar-alt">
-                                <img src="../../../Assets/icons/calendar-days.png" alt="calendar-days icon" />
+                                <img src={calendarIcon} alt="calendar-days icon" />
                             </i>
                             <p>
                                 From: {HelperFunctions.getFormattedIsraeliDate(vacation.start_date)}, &nbsp;
@@ -118,7 +124,7 @@ function VacationCard({ vacation,onDelete  }: VacationCardProps): JSX.Element {
                     </div>
                     <div className="description">
                         <i className="fas fa-info-circle">
-                            <img src="../../Assets/icons/comment-info.png" alt="description-alt icon" />
+                            <img src={informationIcon} alt="description-alt icon" />
                         </i>
                         <p>{vacation.description}</p>
                     </div>
