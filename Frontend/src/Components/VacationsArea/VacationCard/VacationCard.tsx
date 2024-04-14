@@ -45,6 +45,7 @@ function VacationCard({ vacation,onDelete  }: VacationCardProps): JSX.Element {
     };
 
     const handleEdit = () => {
+        
         navigate(`/vacations/edit/${vacation.id}`);
     };
 

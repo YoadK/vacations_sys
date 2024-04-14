@@ -9,7 +9,7 @@ import { notify } from "../../../Utils/Notify";
 
 function Register(): JSX.Element {
 
-    const { register, handleSubmit } = useForm<UserModel>();    
+    const { register, handleSubmit, formState: { errors } } = useForm<UserModel>();    
  
      
     const navigate = useNavigate();
@@ -44,8 +44,21 @@ function Register(): JSX.Element {
                 <label>Last name:</label>
                 <input type="text" {...register("lastName")} />
 
-                <label>Email:</label>
-                <input type="email" {...register("email")}  />
+                <label>Email:</label>                
+                <input 
+                    type="email" 
+                    {...register("email", {
+                        required: "Email is required",
+                        pattern: {
+                            value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                            message: "Invalid email address"
+                        }
+                    })} 
+                />
+                {errors.email?.type === "required" && <p>{errors.email.message}</p>}
+                {errors.email?.type === "pattern" && <p>{errors.email.message}</p>}
+                
+
 
                 <label>Password:</label>
                 <input type="password" {...register("password")}  />

@@ -18,7 +18,8 @@ function EditVacation(): JSX.Element {
     const [vacation, setVacation] = useState<VacationModel | null>(null);
 
     useEffect(() => {
-        const storedVacation = sessionStorage.getItem("editVacation");
+        
+        const storedVacation = sessionStorage.getItem(`editVacation_${params.id}`);
         if (storedVacation) {
             const parsedVacation = JSON.parse(storedVacation);
             const storedTimestamp = parsedVacation.timestamp;
@@ -53,7 +54,8 @@ function EditVacation(): JSX.Element {
                     timestamp: currentTimestamp,
                     data: vacation
                 };
-                sessionStorage.setItem("editVacation", JSON.stringify(data));
+                
+                sessionStorage.setItem(`editVacation_${params.id}`, JSON.stringify(data));
                 setValue("destination", vacation.destination);
                 setValue("description", vacation.description);
                 setValue("start_date", HelperFunctions.formatDateToISO(vacation.start_date));
@@ -64,6 +66,17 @@ function EditVacation(): JSX.Element {
             })
             .catch(err => notify.error(err));
     };
+
+    const handleImageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        const file = event.target.files?.[0];
+        if (file) {
+          const reader = new FileReader();
+          reader.onload = () => {
+            setImageUrl(reader.result as string);
+          };
+          reader.readAsDataURL(file);
+        }
+      };
 
 
     async function send(vacation: VacationModel) {
@@ -112,7 +125,7 @@ function EditVacation(): JSX.Element {
 
                 <div className="upload-image">
                     <label htmlFor="image">Upload Image:</label>
-                    <input type="file" className="file-input-edit-vacation" id="image" name="image" {...register("image")} />
+                    <input type="file" className="file-input-edit-vacation" id="image" name="image" {...register("image")}  onChange={handleImageChange} />
                 </div>
 
                 <div className="image-preview">

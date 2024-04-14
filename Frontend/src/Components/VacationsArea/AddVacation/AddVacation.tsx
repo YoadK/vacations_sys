@@ -20,11 +20,11 @@ function AddVacation(): JSX.Element {
 
    
     const isAdmin = (user?.role === 'admin') || ( user?.role === 'Admin');
-    debugger;
+   
 
     async function send(vacation: VacationModel) {
         try {
-            debugger;
+            
             // Extract first image from FileList into vacation.image:
             vacation.image = (vacation.image as unknown as FileList)[0];
 
@@ -37,8 +37,7 @@ function AddVacation(): JSX.Element {
 
             // Send vacation to backend:
             await vacationsService.addVacation(vacation);
-
-            debugger;
+           
             notify.success("vacation has been added.");
             navigate("/vacations");
         }
@@ -77,7 +76,7 @@ function AddVacation(): JSX.Element {
 
                         <div className="form-group">
                             <label htmlFor="image">Upload Image:</label>
-                            <input type="file" className="file-input-add-vacation" id="image" name="image" {...register("image")} required />
+                            <input type="file" className="file-input-add-vacation" id="image" name="image"  {...register("image")} required />
                         </div>
                         <button>Add Vacation</button>
                         <button className="cancel-button-add-vacation" type="button" onClick={() => navigate("/vacations")}>Cancel</button>
