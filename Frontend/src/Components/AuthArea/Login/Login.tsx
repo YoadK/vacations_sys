@@ -16,12 +16,16 @@ function Login(): JSX.Element {
 
     async function send(credentials: CredentialsModel) {
         try {
-            await authService.login(credentials);
+            
+            const tempResponse =await authService.login(credentials);
             const firstName = appStore.getState().user.firstName;
+            console.log("Login response:", tempResponse);
+            
             notify.success(`Welcome back ${firstName}!`);
             navigate("/home");
         }
         catch (err: any) {
+            console.error("Login error:", err);
             notify.error(err);
         }
     }
@@ -32,10 +36,10 @@ function Login(): JSX.Element {
             <form onSubmit={handleSubmit(send)}>
                 <h5>Login</h5>
                 <label>Email:</label>
-                <input type="email" {...register("email")} />
+                <input type="email" {...register("email")}  required  />
 
                 <label>Password:</label>
-                <input type="password" {...register("password")} />
+                <input type="password" {...register("password")} required min={4}  />
 
                 <button>Login</button>
             </form>
