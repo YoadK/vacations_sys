@@ -6,7 +6,7 @@ import { ContactMail } from "@mui/icons-material";
 function About(): JSX.Element {
 
     // Custom Hook:
-    useTitle("Northwind About");
+    useTitle("Vacations | About us");
 
     return (
         <div className="About">

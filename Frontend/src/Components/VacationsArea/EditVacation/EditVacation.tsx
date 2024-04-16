@@ -6,19 +6,19 @@ import "./EditVacation.css";
 import { useForm } from "react-hook-form";
 import { useEffect, useState } from "react";
 import HelperFunctions from "../../HelperFunctionsArea/Helperfunctions";
+import useTitle from "../../../Utils/UseTitle";
 
 function EditVacation(): JSX.Element {
 
     const { register, handleSubmit, setValue } = useForm<VacationModel>();
     const navigate = useNavigate();
     const params = useParams();
-
     const [imageUrl, setImageUrl] = useState<string>();
-
     const [vacation, setVacation] = useState<VacationModel | null>(null);
+    useTitle("Vacations  | Edit Vacation ");
 
     useEffect(() => {
-        
+
         const storedVacation = sessionStorage.getItem(`editVacation_${params.id}`);
         if (storedVacation) {
             const parsedVacation = JSON.parse(storedVacation);
@@ -54,7 +54,7 @@ function EditVacation(): JSX.Element {
                     timestamp: currentTimestamp,
                     data: vacation
                 };
-                
+
                 sessionStorage.setItem(`editVacation_${params.id}`, JSON.stringify(data));
                 setValue("destination", vacation.destination);
                 setValue("description", vacation.description);
@@ -70,13 +70,13 @@ function EditVacation(): JSX.Element {
     const handleImageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         const file = event.target.files?.[0];
         if (file) {
-          const reader = new FileReader();
-          reader.onload = () => {
-            setImageUrl(reader.result as string);
-          };
-          reader.readAsDataURL(file);
+            const reader = new FileReader();
+            reader.onload = () => {
+                setImageUrl(reader.result as string);
+            };
+            reader.readAsDataURL(file);
         }
-      };
+    };
 
 
     async function send(vacation: VacationModel) {
@@ -125,7 +125,7 @@ function EditVacation(): JSX.Element {
 
                 <div className="upload-image">
                     <label htmlFor="image">Upload Image:</label>
-                    <input type="file" className="file-input-edit-vacation" id="image" name="image" {...register("image")}  onChange={handleImageChange} />
+                    <input type="file" className="file-input-edit-vacation" id="image" name="image" {...register("image")} onChange={handleImageChange} />
                 </div>
 
                 <div className="image-preview">

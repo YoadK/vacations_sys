@@ -44,7 +44,7 @@ function deleteOne(currentState: VacationModel[], action: PayloadAction<number>)
     return newState;
 }
 
-function updateLikes_SLC(currentState: VacationModel[], action: PayloadAction<{ vacationId: number; totalLikesCount: number, isLikedByCurrentUser: boolean }>): VacationModel[] {
+function updateLikes_slice(currentState: VacationModel[], action: PayloadAction<{ vacationId: number; totalLikesCount: number, isLikedByCurrentUser: boolean }>): VacationModel[] {
 
     const { vacationId, totalLikesCount, isLikedByCurrentUser } = action.payload;
     return currentState.map(vacation => {
@@ -56,12 +56,16 @@ function updateLikes_SLC(currentState: VacationModel[], action: PayloadAction<{ 
 }
 
 
+
+
+
+
 // Create the vacations slice - containing and managing only the vacations array: 
 const vacationsSlice = createSlice({
     name: "vacations", // Unique name for the slice
     initialState: [],
-    reducers: { initAll, addOne, updateOne, deleteOne, updateLikes_SLC }
-});
+    reducers: { initAll, addOne, updateOne, deleteOne, updateLikes_slice }
+}); 
 
 // Expose a single object containing functions for creating Action objects:
 export const vacationActionCreators = vacationsSlice.actions;

@@ -66,16 +66,26 @@ class Cyber {
         return hashedPassword;
     }
 
-    public extractUserIdFromToken(token:string):number{
-        // Extract container from token:
-        const container = jwt.decode(token) as { user: UserModel };
 
-        // Extract user from container:
-        const user = container.user;
+    public extractUserIdFromToken(token: string): number | null {
+        try {
+            // Extract container from token:
+            const container = jwt.decode(token) as { user: UserModel } | null;
 
-        const userId = user.id;
+            if (container && container.user) {
+                // Extract user from container:
+                const user = container.user;
 
-        return userId;
+                const userId = user.id;
+
+                return userId;
+            } else {
+                return null;
+            }
+        } catch (error) {
+            console.error("Error extracting user ID from token:", error);
+            return null;
+        }
     }
 }
 

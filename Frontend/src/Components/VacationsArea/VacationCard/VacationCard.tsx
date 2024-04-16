@@ -96,7 +96,7 @@ function VacationCard({ vacation, onDelete, onLikeStatusChange }: VacationCardPr
                         alt={`${vacation.destination} ${vacation.imageUrl}`}
                         onError={handleImageError}
                     />
-                    {user && (user.role === ("Admin" || "admin")) && (
+                    {user && (user.role.toLowerCase() ===  "admin") && (
                         <>
 
                             <button className="edit-button" onClick={handleEdit} title="Edit vacation" ></button>

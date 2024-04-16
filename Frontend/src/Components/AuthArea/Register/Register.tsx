@@ -4,16 +4,15 @@ import UserModel from "../../../Models/UserModel";
 import { authService } from "../../../Services/AuthService";
 import "./Register.css";
 import { notify } from "../../../Utils/Notify";
+import useTitle from "../../../Utils/UseTitle";
 
 
 
 function Register(): JSX.Element {
 
-    const { register, handleSubmit, formState: { errors } } = useForm<UserModel>();    
- 
-     
+    const { register, handleSubmit, formState: { errors } } = useForm<UserModel>();
     const navigate = useNavigate();
-
+    useTitle("Vacations | Register");
 
   
 

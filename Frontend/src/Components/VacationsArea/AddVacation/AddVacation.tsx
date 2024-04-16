@@ -9,6 +9,7 @@ import { useSelector } from "react-redux";
 import { AppState } from "../../../Redux/AppState";
 import LoginIsNeeded from "../../SharedArea/LoginIsNeeded/LoginIsNeeded";
 import HelperFunctions from "../../HelperFunctionsArea/Helperfunctions";
+import useTitle from "../../../Utils/UseTitle";
 
 
 
@@ -18,10 +19,11 @@ function AddVacation(): JSX.Element {
     const { register, handleSubmit, setError,clearErrors , watch } = useForm<VacationModel>();
     const user = useSelector<AppState, UserModel>(state => state.user);
     const navigate = useNavigate();
-    const isAdmin = (user?.role === 'admin') || (user?.role === 'Admin');
+    const isAdmin = (user?.role.toLowerCase() === 'admin');
     const startDate = watch("start_date");
     const endDate = watch("end_date");
     const isDateValid = startDate && endDate && new Date(startDate) < new Date(endDate);
+    useTitle("Vacations  | Add Vacation");
 
 
     async function send(vacation: VacationModel) {

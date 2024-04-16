@@ -5,13 +5,17 @@ import { AppState } from "../../../Redux/AppState";
 import { VacationModel } from "../../../Models/vacation-model";
 import { vacationsService } from "../../../Services/VacationsService";
 import LoginIsNeeded from "../../SharedArea/LoginIsNeeded/LoginIsNeeded";
+import useTitle from "../../../Utils/UseTitle";
 
 
 export function CreateCSV(): JSX.Element {
 
     const user = useSelector<AppState, UserModel>(state => state.user);
     const userId = user?.id;
-    const isAdmin = (user?.role === 'admin') || (user?.role === 'Admin');
+    const isAdmin = (user?.role.toLowerCase() === 'admin');
+    useTitle("Vacations | Create CSV Report");
+
+
 
     // Function to convert an array of VacationModel to a CSV string
     function convertToCSV(vacationData: VacationModel[]): string {

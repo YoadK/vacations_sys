@@ -25,7 +25,6 @@ class SecurityMiddleware {
     // Verify user logged in (authorization: "Bearer <the-token>"):
     //                                        01234567
     public verifyLoggedIn(request: Request, response: Response, next: NextFunction): void {
-
         // Get authorization header
         const authorizationHeader = request.header("authorization");
 
@@ -37,13 +36,19 @@ class SecurityMiddleware {
             // Verify token and extract userId
             const userId = cyber.extractUserIdFromToken(token);
 
-            // Attach userId to locals object
-            response.locals.userId = userId;
+            if (userId !== null) {
+                // Attach userId to locals object
+                response.locals.userId = userId;
 
-            // Continue to the next middleware or controller
-            next();
+                // Continue to the next middleware or controller
+                next();
+            } else {
+                // If token is invalid or user ID extraction fails, send unauthorized error
+                const err = new UnauthorizedError("Invalid token or user not found.");
+                next(err);
+            }
         } else {
-            // If token is invalid or missing, send unauthorized error
+            // If token is missing, send unauthorized error
             const err = new UnauthorizedError("You are not logged in.");
             next(err);
         }

@@ -6,12 +6,15 @@ import UserModel from "../../../Models/UserModel";
 import { AppState } from "../../../Redux/AppState";
 import { useSelector } from "react-redux";
 import LoginIsNeeded from "../../SharedArea/LoginIsNeeded/LoginIsNeeded";
+import useTitle from "../../../Utils/UseTitle";
+
 
 function ViewReports(): JSX.Element {
     const [chartData, setChartData] = useState([]);
     const user = useSelector<AppState, UserModel>(state => state.user);
     const userId = user?.id;
-    const isAdmin = (user?.role === 'admin') || (user?.role === 'Admin');
+    const isAdmin = (user?.role.toLowerCase() === 'admin');
+    useTitle("Vacations  | view report of vacation likes ");
    
 
     useEffect(() => {

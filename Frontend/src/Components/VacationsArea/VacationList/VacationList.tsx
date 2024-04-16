@@ -18,7 +18,7 @@ import LoginIsNeeded from "../../SharedArea/LoginIsNeeded/LoginIsNeeded";
 
 
 function VacationList(): JSX.Element {
-    useTitle("Vacations list");
+   
     const navigate = useNavigate();
     const [allVacations, setAllVacations] = useState<VacationModel[]>([]);
     const [vacationsToDisplayOnCurrentPage, setVacationsToDisplayOnCurrentPage] = useState<VacationModel[]>([]);// 
@@ -30,6 +30,7 @@ function VacationList(): JSX.Element {
     const [allFilteredVacations, setAllFilteredVacations] = useState<VacationModel[]>([]);
     // spinner active when isloading===true
     const [isLoading, setIsLoading] = useState(false);
+    useTitle("Vacations | View Vacation List");
 
     // Fetching data
     useEffect(() => {
@@ -112,7 +113,7 @@ function VacationList(): JSX.Element {
         <div className="vacation-list-container">
             {user ? (
                 <>
-                    {(user.role === "admin") ||(user.role=== "Admin") && (
+                    {(user.role.toLowerCase() === "admin") && (
                         <button className="vacations-fab" title="Add Vacation" onClick={handleFAB}>
                             +<span className="tooltip-text">Add Vacation</span>
                         </button>

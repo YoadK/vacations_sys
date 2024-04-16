@@ -5,14 +5,15 @@ import { appStore } from "../../../Redux/Store";
 import { authService } from "../../../Services/AuthService";
 import { notify } from "../../../Utils/Notify";
 import "./Login.css";
+import useTitle from "../../../Utils/UseTitle";
 
 // Login component
 
 function Login(): JSX.Element {
 
     const { register, handleSubmit } = useForm<CredentialsModel>();
-
     const navigate = useNavigate();
+    useTitle("Vacations | Login");
 
     async function send(credentials: CredentialsModel) {
         try {

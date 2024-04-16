@@ -5,7 +5,7 @@ import useTitle from "../../../Utils/UseTitle";
 function Home(): JSX.Element {
 
     // Custom Hook:
-    useTitle("Vacation Destinations | Vacations Home");
+    useTitle("Vacation  | Vacations Home");
 
 
     return (

@@ -6,7 +6,6 @@ import { vacationActionCreators } from "../Redux/VacationsSlice";
 
 
 class VacationsService {
-
     // Get all vacations With Likes from backend:
     public async getAllVacationsWithLikes(userId: number): Promise<VacationModel[]> {
 
@@ -22,7 +21,6 @@ class VacationsService {
 
             // Send action to global state: 
             appStore.dispatch(action);
-
 
             // Return vacations to the component:
             return vacations;
@@ -140,7 +138,7 @@ class VacationsService {
             const isLikedByCurrentUser = updatedVacation.isLikedByCurrentUser;
 
             // Create action for updating a vacation in the global state: 
-            const action = vacationActionCreators.updateLikes_SLC({ vacationId, totalLikesCount, isLikedByCurrentUser })
+            const action = vacationActionCreators.updateLikes_slice({ vacationId, totalLikesCount, isLikedByCurrentUser })
             appStore.dispatch(action);
         }
         catch (error) {

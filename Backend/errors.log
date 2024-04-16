@@ -2820,3 +2820,148 @@ Stack: TypeError: Cannot read properties of null (reading 'user')
     at Function.handle (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:175:3)
 ---------------------------------------
 
+Time: Tue Apr 16 2024 08:39:01 GMT+0300 (Israel Daylight Time)
+Message: Cannot read properties of null (reading 'user')
+Stack: TypeError: Cannot read properties of null (reading 'user')
+    at Cyber.extractUserIdFromToken (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\2-utils\cyber.ts:74:32)
+    at verifyLoggedIn (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\4-middleware\security-middleware.ts:38:34)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:175:3)
+---------------------------------------
+
+Time: Tue Apr 16 2024 08:39:06 GMT+0300 (Israel Daylight Time)
+Message: Cannot read properties of null (reading 'user')
+Stack: TypeError: Cannot read properties of null (reading 'user')
+    at Cyber.extractUserIdFromToken (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\2-utils\cyber.ts:74:32)
+    at verifyLoggedIn (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\4-middleware\security-middleware.ts:38:34)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:175:3)
+---------------------------------------
+
+Time: Tue Apr 16 2024 08:44:21 GMT+0300 (Israel Daylight Time)
+Message: Cannot read properties of null (reading 'user')
+Stack: TypeError: Cannot read properties of null (reading 'user')
+    at Cyber.extractUserIdFromToken (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\2-utils\cyber.ts:74:32)
+    at verifyLoggedIn (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\4-middleware\security-middleware.ts:38:34)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:175:3)
+---------------------------------------
+
+Time: Tue Apr 16 2024 08:44:25 GMT+0300 (Israel Daylight Time)
+Message: Cannot read properties of null (reading 'user')
+Stack: TypeError: Cannot read properties of null (reading 'user')
+    at Cyber.extractUserIdFromToken (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\2-utils\cyber.ts:74:32)
+    at verifyLoggedIn (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\4-middleware\security-middleware.ts:38:34)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:175:3)
+---------------------------------------
+
+Time: Tue Apr 16 2024 08:54:48 GMT+0300 (Israel Daylight Time)
+Message: Cannot read properties of null (reading 'user')
+Stack: TypeError: Cannot read properties of null (reading 'user')
+    at Cyber.extractUserIdFromToken (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\2-utils\cyber.ts:74:32)
+    at verifyLoggedIn (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\4-middleware\security-middleware.ts:38:34)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:175:3)
+---------------------------------------
+
+Time: Tue Apr 16 2024 09:02:27 GMT+0300 (Israel Daylight Time)
+Message: Cannot read properties of null (reading 'user')
+Stack: TypeError: Cannot read properties of null (reading 'user')
+    at Cyber.extractUserIdFromToken (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\2-utils\cyber.ts:74:32)
+    at verifyLoggedIn (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\4-middleware\security-middleware.ts:38:34)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:175:3)
+---------------------------------------
+
+Time: Tue Apr 16 2024 09:02:31 GMT+0300 (Israel Daylight Time)
+Message: Cannot read properties of null (reading 'user')
+Stack: TypeError: Cannot read properties of null (reading 'user')
+    at Cyber.extractUserIdFromToken (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\2-utils\cyber.ts:74:32)
+    at verifyLoggedIn (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\4-middleware\security-middleware.ts:38:34)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:175:3)
+---------------------------------------
+
+Time: Tue Apr 16 2024 09:06:37 GMT+0300 (Israel Daylight Time)
+Message: Cannot read properties of null (reading 'user')
+Stack: TypeError: Cannot read properties of null (reading 'user')
+    at Cyber.extractUserIdFromToken (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\2-utils\cyber.ts:74:32)
+    at verifyLoggedIn (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\4-middleware\security-middleware.ts:38:34)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:175:3)
+---------------------------------------
+
+Time: Tue Apr 16 2024 20:57:13 GMT+0300 (Israel Daylight Time)
+Message: Cannot read properties of null (reading 'user')
+Stack: TypeError: Cannot read properties of null (reading 'user')
+    at Cyber.extractUserIdFromToken (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\2-utils\cyber.ts:74:32)
+    at verifyLoggedIn (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\4-middleware\security-middleware.ts:38:34)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\node_modules\express\lib\router\index.js:175:3)
+---------------------------------------
+
+Time: Tue Apr 16 2024 21:13:16 GMT+0300 (Israel Daylight Time)
+Message: Invalid token or user not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Apr 16 2024 21:13:30 GMT+0300 (Israel Daylight Time)
+Message: Invalid token or user not found.
+Stack: undefined
+---------------------------------------
+
