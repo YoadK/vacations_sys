@@ -5,13 +5,15 @@ import { vacationsService } from "../../../Services/VacationsService"; // Adjust
 import UserModel from "../../../Models/UserModel";
 import { AppState } from "../../../Redux/AppState";
 import { useSelector } from "react-redux";
+import LoginIsNeeded from "../../SharedArea/LoginIsNeeded/LoginIsNeeded";
 
 function ViewReports(): JSX.Element {
     const [chartData, setChartData] = useState([]);
     const user = useSelector<AppState, UserModel>(state => state.user);
+    const userId = user?.id;
+    const isAdmin = (user?.role === 'admin') || (user?.role === 'Admin');
+   
 
-    const userId = user.id;
-    
     useEffect(() => {
         const fetchVacations = async () => {
             try {
@@ -44,7 +46,7 @@ function ViewReports(): JSX.Element {
             horizontalAlign: "left", // "center" , "right"
             verticalAlign: "center",  // "top" , "bottom"
             fontSize: 15
-          },
+        },
         data: [
             {
                 type: 'column', // Or any other type suitable for your data
@@ -58,11 +60,22 @@ function ViewReports(): JSX.Element {
     };
 
     return (
-        <div className="ViewReports">
-            <h2>Vacation Reports</h2>
-            <CanvasJSReact.CanvasJSChart options={options} />
-        </div>
-    );
+       
+            <div className="viewreports">
+                
+                {isAdmin && (
+                    
+                    <div>      
+                        <h2>Vacation Reports</h2>              
+                        <CanvasJSReact.CanvasJSChart options={options} />
+                    </div>
+                )}
+                {!isAdmin && (
+                    <LoginIsNeeded />
+                )}
+            </div>
+       
+    )
 }
 
 export default ViewReports;

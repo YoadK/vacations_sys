@@ -57,6 +57,8 @@ function VacationList(): JSX.Element {
         fetchVacations();
     }, [user]); // Dependencies → re-execute the useEffect to fetch vacations relevant to the current user
 
+
+    // Filtering vacations logic
     useEffect(() => {
         const filteredVacations = allVacations.filter(vac => {
             const startDate = moment(vac.start_date, 'DD.MM.YYYY').toDate();
@@ -98,6 +100,14 @@ function VacationList(): JSX.Element {
         setAllVacations(allVacations.filter(vacation => vacation.id !== deletedVacationId));
     };
 
+    const handleVacationLikeStatusChange = (updatedVacation: VacationModel) => {
+        setAllVacations(prevVacations =>
+            prevVacations.map(vacation =>
+                vacation.id === updatedVacation.id ? updatedVacation : vacation
+            )
+        );
+    };
+
     return (
         <div className="vacation-list-container">
             {user ? (
@@ -127,7 +137,7 @@ function VacationList(): JSX.Element {
                             </h5>
                             <div className="vacation-card-container">
                                 {vacationsToDisplayOnCurrentPage.map(vacation => (
-                                    <VacationCard key={vacation.id} vacation={vacation} onDelete={handleVacationDeleted}  />// Passing the delete handler as a prop
+                                    <VacationCard key={vacation.id} vacation={vacation} onDelete={handleVacationDeleted} onLikeStatusChange={handleVacationLikeStatusChange} />
                                 ))}
 
                                 <br />
