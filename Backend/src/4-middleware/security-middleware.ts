@@ -35,7 +35,7 @@ class SecurityMiddleware {
 
             // Verify token and extract userId
             const userId = cyber.extractUserIdFromToken(token);
-
+            
             if (userId !== null) {
                 // Attach userId to locals object
                 response.locals.userId = userId;
@@ -45,6 +45,8 @@ class SecurityMiddleware {
             } else {
                 // If token is invalid or user ID extraction fails, send unauthorized error
                 const err = new UnauthorizedError("Invalid token or user not found.");
+                console.error(err);
+                
                 next(err);
             }
         } else {

@@ -16,18 +16,21 @@ function Login(): JSX.Element {
     useTitle("Vacations | Login");
 
     async function send(credentials: CredentialsModel) {
-        try {
-            
+        try {        
             const tempResponse =await authService.login(credentials);
             const firstName = appStore.getState().user.firstName;
-            console.log("Login response:", tempResponse);
-            
+            console.log("Login response:", tempResponse);            
             notify.success(`Welcome back ${firstName}!`);
             navigate("/home");
         }
         catch (err: any) {
-            console.error("Login error:", err);
-            notify.error(err);
+            if (err.response && err.response.status === 401) {
+                
+                notify.error("Invalid credentials. Please try again.");
+            } else {
+                notify.error("An error occurred. Please try again later.");
+            }
+            
         }
     }
 

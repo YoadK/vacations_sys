@@ -29,8 +29,8 @@ class AuthService {
         // Init roleId as regular user:
         user.roleId = RoleModel.User;
 
-       //init role
-        user.role=RoleModel[user.roleId];
+        //init role
+        user.role = RoleModel[user.roleId];
 
         // Hash password:
         user.password = cyber.hashPassword(user.password);
@@ -57,42 +57,51 @@ class AuthService {
 
     // Login existing user:
     public async login(credentials: CredentialsModel): Promise<string> {
+        try {                      
+            //validate email address
+            if (!this.isEmailValid(credentials.email)) //email  address string is not valid
+            {               
+                throw new Error("Email address string is not valid!");
+            }
+             // Validate credentials: 
+             credentials.validate();        
+           
+            // Hash password for comparing the hashes:
+            credentials.password = cyber.hashPassword(credentials.password);
 
-        //validate email address
-        if (!this.isEmailValid(credentials.email)) //email  address string is not valid
-        {
-            throw new Error("Email address string is not valid!");
+            // Create Prepared Statement: 
+            const sql = "SELECT * FROM users WHERE email = ? AND password = ?";
+
+            // Execute:
+            const users = await dal.execute(sql, [credentials.email, credentials.password]);
+                
+            // Extract single user:
+            const user = users[0];
+            
+            if (!user || users.length === 0 ) {
+                throw new UnauthorizedError("Incorrect email or password.");
+            }
+           
+            // Ensure the user has a role ID defined
+        if (user.roleId === undefined) {
+            throw new UnauthorizedError("User role ID is missing due to invalid password. cannot proceed.");
         }
 
-        // Validate credentials: 
-        credentials.validate();
+            // assign value for user's role
+            user.role = RoleModel[user.roleId];
 
-        // Hash password for comparing the hashes:
-        credentials.password = cyber.hashPassword(credentials.password);
+            // Create new token: 
+            const token = cyber.getNewToken(user);
 
-        // Create sql:
-        // const sql = `SELECT * FROM users WHERE email = '${credentials.email}' AND password = '${credentials.password}'`;
-
-        // Create Prepared Statement: 
-        const sql = "SELECT * FROM users WHERE email = ? AND password = ?";
-
-        // Execute:
-        const users = await dal.execute(sql, [credentials.email, credentials.password]);
-
-        // Extract single user:
-        const user = users[0];
-
-        // assign value for user's role
-        user.role=RoleModel[user.roleId];
-        
-        // If no such user: 
-        if (!user) throw new UnauthorizedError("Incorrect email or password.");
-
-        // Create new token: 
-        const token = cyber.getNewToken(user);
-
-        // Return:
-        return token;
+            // Return:
+            return token;
+        }
+        catch (err: any) {
+            if (err instanceof UnauthorizedError) {
+                throw err;
+            }
+            throw new Error("Internal server error during login.");
+        }
     }
 
     // Is email taken:
@@ -125,10 +134,9 @@ class AuthService {
         //Email Validation with Case Insensitivity:
         let pattern5 = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
         //Advanced Email Validation (with Length Limits)
-        let pattern6="^.{1,254}@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$";
-        if (email.match(pattern1)|| email.match(pattern2)|| email.match(pattern3)||
-         email.match(pattern4)|| email.match(pattern5)|| email.match(pattern6))
-         {
+        let pattern6 = "^.{1,254}@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$";
+        if (email.match(pattern1) || email.match(pattern2) || email.match(pattern3) ||
+            email.match(pattern4) || email.match(pattern5) || email.match(pattern6)) {
             isValid = true;
         }
         return isValid;

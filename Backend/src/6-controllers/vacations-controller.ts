@@ -18,7 +18,7 @@ class VacationsController {
 
     private registerRoutes(): void {
         this.router.get("/vacations-with-likes", securityMiddleware.verifyLoggedIn, this.getAllVacationsWithLikes);
-        this.router.get("/vacations", this.getAllVacations);
+        this.router.get("/vacations", securityMiddleware.verifyLoggedIn, this.getAllVacations);
         this.router.get("/vacations/:id(\\d+)", this.getOneVacation); // \\d --> Digit, + --> One or more
         this.router.post("/vacations", securityMiddleware.verifyLoggedIn, this.addVacation);
         this.router.put("/vacations/:id(\\d+)", securityMiddleware.verifyLoggedIn, this.updateVacation);

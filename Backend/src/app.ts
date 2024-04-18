@@ -8,8 +8,6 @@ import { errorsMiddleware } from "./4-middleware/errors-middleware";
 import { loggerMiddleware } from "./4-middleware/logger-middleware";
 import { securityMiddleware } from "./4-middleware/security-middleware";
 import { authRouter } from "./6-controllers/auth-controller";
-import { categoriesRouter } from "./6-controllers/categories-controller";
-import { productsRouter } from "./6-controllers/products-controller";
 import cors from "cors";
 import expressRateLimit from "express-rate-limit";
 import https from "https";
@@ -49,11 +47,11 @@ class App {
         fileSaver.config(path.join(__dirname, "1-assets", "images"));
 
         // Register middleware:
-        this.server.use(loggerMiddleware.logToConsole);
+        // this.server.use(loggerMiddleware.logToConsole);
         this.server.use(securityMiddleware.checkBlackList);
 
         // Connect any controller route to the server:
-        this.server.use("/api", authRouter, productsRouter, categoriesRouter, vacationsRouter);
+        this.server.use("/api", authRouter, vacationsRouter);
 
         // Route not found middleware: 
         this.server.use(errorsMiddleware.routeNotFound);

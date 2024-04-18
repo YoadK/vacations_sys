@@ -6,9 +6,10 @@ import { vacationActionCreators } from "../Redux/VacationsSlice";
 
 
 class VacationsService {
+    
     // Get all vacations With Likes from backend:
-    public async getAllVacationsWithLikes(userId: number): Promise<VacationModel[]> {
-
+    public async getAllVacationsWithLikes(userId: number): Promise<VacationModel[] | undefined> {
+        
         try {
             // Get all vacations from backend: 
             const response = await axios.get<VacationModel[]>(appConfig.vacationsWithLikesUrl);
@@ -25,8 +26,15 @@ class VacationsService {
             // Return vacations to the component:
             return vacations;
         }
-        catch (error) {
-            console.error("Error getting all vacations:", error);
+        catch (error:any) {
+            if (error.response && error.response.status === 401) {
+                // Handle unauthorized case
+                console.log("User is not authorized to access vacations.");
+                return undefined;
+            } else {
+                console.error("Error getting all vacations:", error);
+                return undefined;
+            }
         }
     }
 

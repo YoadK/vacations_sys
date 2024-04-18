@@ -2,10 +2,7 @@ class AppConfig {
 
     // Backend urls:
     public readonly vacationsUrl = "http://localhost:4000/api/vacations/";
-    public readonly vacationsWithLikesUrl = "http://localhost:4000/api/vacations-with-likes/";
-    public readonly productsUrl = "http://localhost:4000/api/products/";
-    public readonly suppliersUrl = "http://localhost:4000/api/suppliers/";
-    public readonly categoriesUrl = "http://localhost:4000/api/categories/";
+    public readonly vacationsWithLikesUrl = "http://localhost:4000/api/vacations-with-likes/";    
     public readonly registerUrl = "http://localhost:4000/api/register/";
     public readonly loginUrl = "http://localhost:4000/api/login/";
     

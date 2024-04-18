@@ -6,6 +6,7 @@ import { appStore } from "../Redux/Store";
 import { authActionCreators } from "../Redux/AuthSlice";
 import CredentialsModel from "../Models/CredentialsModel";
 
+
 class AuthService {
 
     // Constructor:
@@ -46,21 +47,29 @@ class AuthService {
 
     // Login existing user:
     public async login(credentials: CredentialsModel): Promise<void> {
+        try {
+            // Send the credentials to backend: 
+            const response = await axios.post<string>(appConfig.loginUrl, credentials);
 
-        // Send the credentials to backend: 
-        const response = await axios.post<string>(appConfig.loginUrl, credentials);
+            // Extract the JWT token:
+            const token = response.data;
 
-        // Extract the JWT token:
-        const token = response.data;
+            // Extract the user from the token: 
+            const loggedInUser = jwtDecode<{ user: UserModel }>(token).user;
 
-        // Extract the user from the token: 
-        const loggedInUser = jwtDecode<{ user: UserModel }>(token).user;
+            // Update global state: 
+            appStore.dispatch(authActionCreators.login(loggedInUser));
 
-        // Update global state: 
-        appStore.dispatch(authActionCreators.login(loggedInUser));
-
-        // Save the token in the local storage: 
-        sessionStorage.setItem("token", token);
+            // Save the token in the local storage: 
+            sessionStorage.setItem("token", token);
+        }
+        catch (err: any) {
+            if (err.response && err.response.status === 401) {
+                console.log("Invalid credentials. Please try again.")                
+            } else {
+                console.log("Login failed. Please try again later.");
+            }
+        }
     }
 
     // Logout:
@@ -72,7 +81,7 @@ class AuthService {
         // Remove token from local storage: 
         sessionStorage.removeItem("token");
 
-     
+
     }
 
 }
