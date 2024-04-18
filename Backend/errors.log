@@ -36617,3 +36617,8 @@ Message: Incorrect email or password.
 Stack: undefined
 ---------------------------------------
 
+Time: Thu Apr 18 2024 12:38:39 GMT+0300 (Israel Daylight Time)
+Message: "firstName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
