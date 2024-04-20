@@ -38,7 +38,7 @@ function VacationList(): JSX.Element {
             setIsLoading(true);
             try {
                 if (user) {
-                    console.log("current user is: " + user.firstName);
+                    
                     const fetchedVacations = await vacationsService.getAllVacationsWithLikes(user.id);
                     setAllVacations(fetchedVacations);
                     setPage(1); // Reset to first page on new data
@@ -48,7 +48,7 @@ function VacationList(): JSX.Element {
                     return;
                 }
             } catch (err) {
-                notify.error("Error fetching vacations: " + err);
+                notify.error("An Error occured while fetching vacations:  " + err);
             }
             finally {
                 setIsLoading(false); // End loading
@@ -87,7 +87,7 @@ function VacationList(): JSX.Element {
 
     }, [allFilteredVacations, page]);
 
-    const handleFAB = () => {
+    const handleAddVacationFAB = () => {
         try {
             navigate("/vacations/new")
 
@@ -114,7 +114,7 @@ function VacationList(): JSX.Element {
             {user ? (
                 <>
                     {(user.role.toLowerCase() === "admin") && (
-                        <button className="vacations-fab" title="Add Vacation" onClick={handleFAB}>
+                        <button className="vacations-fab" title="Add Vacation" onClick={handleAddVacationFAB}>
                             +<span className="tooltip-text">Add Vacation</span>
                         </button>
                     )}

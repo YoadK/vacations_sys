@@ -14,8 +14,13 @@ function AuthMenu(): JSX.Element {
     const user = useSelector<AppState, UserModel>(appState => appState.user);
 
     function logMeOut(): void {
+        try{
         notify.success(`Bye bye ${user.firstName}...`);
         authService.logout();
+        }
+        catch (err:any){
+            notify.error(`An Error occured while logging out ${user.firstName}`);
+        }
     }
 
     if (user) {

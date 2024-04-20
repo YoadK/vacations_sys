@@ -5,7 +5,6 @@ import fs from "fs";
 import { fileSaver } from "uploaded-file-saver";
 import { appConfig } from "./2-utils/app-config";
 import { errorsMiddleware } from "./4-middleware/errors-middleware";
-import { loggerMiddleware } from "./4-middleware/logger-middleware";
 import { securityMiddleware } from "./4-middleware/security-middleware";
 import { authRouter } from "./6-controllers/auth-controller";
 import cors from "cors";

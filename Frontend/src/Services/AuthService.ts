@@ -5,6 +5,7 @@ import { jwtDecode } from "jwt-decode";
 import { appStore } from "../Redux/Store";
 import { authActionCreators } from "../Redux/AuthSlice";
 import CredentialsModel from "../Models/CredentialsModel";
+import { notify } from "../Utils/Notify";
 
 
 class AuthService {
@@ -65,9 +66,11 @@ class AuthService {
         }
         catch (err: any) {
             if (err.response && err.response.status === 401) {
-                console.log("Invalid credentials. Please try again.")                
+                notify.error("Invalid credentials. Please try again.");  
+                             
             } else {
-                console.log("Login failed. Please try again later.");
+                notify.error("Login failed. Please try again later.");  
+                
             }
         }
     }

@@ -3,6 +3,7 @@ import { appConfig } from "../Utils/AppConfig";
 import { appStore } from "../Redux/Store";
 import { VacationModel } from "../Models/vacation-model";
 import { vacationActionCreators } from "../Redux/VacationsSlice";
+import { notify } from "../Utils/Notify";
 
 
 class VacationsService {
@@ -29,10 +30,10 @@ class VacationsService {
         catch (error:any) {
             if (error.response && error.response.status === 401) {
                 // Handle unauthorized case
-                console.log("User is not authorized to access vacations.");
+                notify.error("User is not authorized to access vacations.");                
                 return undefined;
-            } else {
-                console.error("Error getting all vacations:", error);
+            } else {                
+                notify.error("Error getting all vacations");  
                 return undefined;
             }
         }

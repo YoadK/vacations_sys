@@ -1,7 +1,8 @@
 
 .LoginIsNeeded {
     position: absolute; /* Position it relative to the nearest positioned ancestor */
-    top: 50%;
+    top: 50% !important;
+    bottom: 50% !important;
     left: 50%;
     transform: translate(-50%, -50%); /* Center it horizontally and vertically */
     /* You might also want to add: */

@@ -6,7 +6,7 @@ import { VacationModel } from "../../../Models/vacation-model";
 import { vacationsService } from "../../../Services/VacationsService";
 import LoginIsNeeded from "../../SharedArea/LoginIsNeeded/LoginIsNeeded";
 import useTitle from "../../../Utils/UseTitle";
-
+import downloadFileIcon from "../../../Assets/icons/icons8-inbox-tray-48.png";
 
 export function CreateCSV(): JSX.Element {
 
@@ -37,9 +37,7 @@ export function CreateCSV(): JSX.Element {
     async function generateCSV() {
         // Assuming you have a function to fetch your vacation data
         const vacationData = await vacationsService.getAllVacationsWithLikes(userId);
-        const csvString = convertToCSV(vacationData);
-
-        console.log(csvString);
+        const csvString = convertToCSV(vacationData);       
         return csvString;
     }
 
@@ -65,7 +63,7 @@ export function CreateCSV(): JSX.Element {
                 <div>
                     <h1>Create CSV Report</h1>
                     <p>Press the button below, to download a CSV report, containing information about Each Destination and its total amount of likes</p>
-                    <button onClick={handleDownload}><img className="download-file-icon" src="../../../../Assets/icons/icons8-inbox-tray-48.png" />Download</button>
+                    <button onClick={handleDownload}><img className="download-file-icon" src={downloadFileIcon} />Download</button>
                 </div>
             )}
 

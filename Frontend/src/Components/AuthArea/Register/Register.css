@@ -10,5 +10,10 @@
 .Register>form>h5{
     text-align: center;
 }
-	
+.Register > p{
+    background-color: red;
+ }	
+ .error-message {
+    color: red;
+  }
 

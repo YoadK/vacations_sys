@@ -88,3 +88,14 @@ textarea {
     color: #333;
     margin-top: 3px;
 }
+
+
+.error-message {
+    color: #D8000C; /* Bright red text color for visibility */
+    background-color: #FFD2D2; /* Light red background to highlight the error */
+    padding: 10px;
+    margin: 10px 10px;
+    border: 1px solid #D8000C; /* Red border matching the text color */
+    box-shadow: 0 0 10px #D8000C; /* Shadow for an elevated effect */    
+    font-size: 0.9em; 
+}

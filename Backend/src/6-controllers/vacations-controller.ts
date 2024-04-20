@@ -43,7 +43,7 @@ class VacationsController {
             }
             const vacations = await vacationsService.getAllVacationsWithLikes(userId);
             
-            console.log("<backend->vacations-controller> vacations: ", vacations);
+           
 
             response.json(vacations); // status = 200
         }

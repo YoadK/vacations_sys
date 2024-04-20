@@ -39,3 +39,11 @@ export class UnauthorizedError extends ClientError {
         super(message, StatusCode.Unauthorized);
     }
 }
+
+// Conflict error:
+export class ConflictError extends ClientError {
+    public constructor(message: string) {
+        super(message, StatusCode.Conflict);
+    }
+}
+

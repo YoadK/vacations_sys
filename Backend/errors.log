@@ -36622,3 +36622,243 @@ Message: "firstName" length must be at least 4 characters long
 Stack: undefined
 ---------------------------------------
 
+Time: Thu Apr 18 2024 13:02:24 GMT+0300 (Israel Daylight Time)
+Message: Email already taken.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 18 2024 13:02:29 GMT+0300 (Israel Daylight Time)
+Message: Email already taken.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 18 2024 13:02:35 GMT+0300 (Israel Daylight Time)
+Message: "email" must be a valid email
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 18 2024 13:06:25 GMT+0300 (Israel Daylight Time)
+Message: "email" must be a valid email
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 18 2024 13:06:57 GMT+0300 (Israel Daylight Time)
+Message: "email" must be a valid email
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 18 2024 13:45:08 GMT+0300 (Israel Daylight Time)
+Message: Email already taken.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 18 2024 16:58:20 GMT+0300 (Israel Daylight Time)
+Message: Registration failed. Please try again later.
+Stack: Error: Registration failed. Please try again later.
+    at AuthService.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:64:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:4:12)
+    at AuthService.register (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:20:16)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\6-controllers\auth-controller.ts:25:45
+    at Generator.next (<anonymous>)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\6-controllers\auth-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Apr 18 2024 16:59:43 GMT+0300 (Israel Daylight Time)
+Message: Registration failed. Please try again later.
+Stack: Error: Registration failed. Please try again later.
+    at AuthService.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:64:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:4:12)
+    at AuthService.register (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:20:16)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\6-controllers\auth-controller.ts:25:45
+    at Generator.next (<anonymous>)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\6-controllers\auth-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Apr 18 2024 17:00:00 GMT+0300 (Israel Daylight Time)
+Message: "email" must be a valid email
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 18 2024 17:00:24 GMT+0300 (Israel Daylight Time)
+Message: Registration failed. Please try again later.
+Stack: Error: Registration failed. Please try again later.
+    at AuthService.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:64:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:4:12)
+    at AuthService.register (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:20:16)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\6-controllers\auth-controller.ts:25:45
+    at Generator.next (<anonymous>)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\6-controllers\auth-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Apr 18 2024 17:02:49 GMT+0300 (Israel Daylight Time)
+Message: Registration failed. Please try again later.
+Stack: Error: Registration failed. Please try again later.
+    at AuthService.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:64:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:4:12)
+    at AuthService.register (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:20:16)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\6-controllers\auth-controller.ts:25:45
+    at Generator.next (<anonymous>)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\6-controllers\auth-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Apr 18 2024 17:07:41 GMT+0300 (Israel Daylight Time)
+Message: Registration failed. Please try again later.
+Stack: Error: Registration failed. Please try again later.
+    at AuthService.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:64:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:4:12)
+    at AuthService.register (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:20:16)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\6-controllers\auth-controller.ts:25:45
+    at Generator.next (<anonymous>)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\6-controllers\auth-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Apr 18 2024 17:09:56 GMT+0300 (Israel Daylight Time)
+Message: alert is not defined
+Stack: ReferenceError: alert is not defined
+    at AuthService.<anonymous> (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:20:13)
+    at Generator.next (<anonymous>)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:4:12)
+    at AuthService.register (C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\5-services\auth-service.ts:20:16)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\6-controllers\auth-controller.ts:25:45
+    at Generator.next (<anonymous>)
+    at C:\Users\YoadK\Dropbox\JB_FullStackCourse\Final_Project\vacations_sys\Backend\src\6-controllers\auth-controller.ts:8:71
+    at new Promise (<anonymous>)
+---------------------------------------
+
+Time: Thu Apr 18 2024 17:16:46 GMT+0300 (Israel Daylight Time)
+Message: Email already exists.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 18 2024 17:18:52 GMT+0300 (Israel Daylight Time)
+Message: "email" must be a valid email
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 18 2024 17:52:24 GMT+0300 (Israel Daylight Time)
+Message: "firstName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 18 2024 17:52:41 GMT+0300 (Israel Daylight Time)
+Message: "lastName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Thu Apr 18 2024 18:37:22 GMT+0300 (Israel Daylight Time)
+Message: "firstName" is not allowed to be empty
+Stack: undefined
+---------------------------------------
+
+Time: Fri Apr 19 2024 15:19:00 GMT+0300 (Israel Daylight Time)
+Message: "price" must be greater than or equal to 0
+Stack: undefined
+---------------------------------------
+
+Time: Fri Apr 19 2024 15:24:52 GMT+0300 (Israel Daylight Time)
+Message: "price" must be less than or equal to 9999
+Stack: undefined
+---------------------------------------
+
+Time: Fri Apr 19 2024 15:30:12 GMT+0300 (Israel Daylight Time)
+Message: "price" must be greater than or equal to 0
+Stack: undefined
+---------------------------------------
+
+Time: Fri Apr 19 2024 17:04:24 GMT+0300 (Israel Daylight Time)
+Message: "price" must be greater than or equal to 0
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 20 2024 18:39:14 GMT+0300 (Israel Daylight Time)
+Message: "firstName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 20 2024 18:39:24 GMT+0300 (Israel Daylight Time)
+Message: "lastName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 20 2024 18:41:42 GMT+0300 (Israel Daylight Time)
+Message: "lastName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 20 2024 18:41:44 GMT+0300 (Israel Daylight Time)
+Message: "lastName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 20 2024 18:43:46 GMT+0300 (Israel Daylight Time)
+Message: "lastName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 20 2024 18:44:51 GMT+0300 (Israel Daylight Time)
+Message: "firstName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 20 2024 18:48:32 GMT+0300 (Israel Daylight Time)
+Message: "firstName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 20 2024 18:55:13 GMT+0300 (Israel Daylight Time)
+Message: "firstName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 20 2024 18:55:18 GMT+0300 (Israel Daylight Time)
+Message: "firstName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 20 2024 18:55:21 GMT+0300 (Israel Daylight Time)
+Message: "lastName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 20 2024 18:59:56 GMT+0300 (Israel Daylight Time)
+Message: "firstName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 20 2024 19:01:26 GMT+0300 (Israel Daylight Time)
+Message: "firstName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 20 2024 19:05:12 GMT+0300 (Israel Daylight Time)
+Message: "firstName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 20 2024 19:13:16 GMT+0300 (Israel Daylight Time)
+Message: "firstName" length must be at least 4 characters long
+Stack: undefined
+---------------------------------------
+

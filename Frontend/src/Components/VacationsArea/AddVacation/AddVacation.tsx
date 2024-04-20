@@ -11,18 +11,16 @@ import LoginIsNeeded from "../../SharedArea/LoginIsNeeded/LoginIsNeeded";
 import HelperFunctions from "../../HelperFunctionsArea/Helperfunctions";
 import useTitle from "../../../Utils/UseTitle";
 
-
-
-
-
 function AddVacation(): JSX.Element {
-    const { register, handleSubmit, setError,clearErrors , watch } = useForm<VacationModel>();
+    const { register, handleSubmit, setError, clearErrors, watch, formState: { errors } } = useForm<VacationModel>();
     const user = useSelector<AppState, UserModel>(state => state.user);
     const navigate = useNavigate();
     const isAdmin = (user?.role.toLowerCase() === 'admin');
     const startDate = watch("start_date");
     const endDate = watch("end_date");
-    const isDateValid = startDate && endDate && new Date(startDate) < new Date(endDate);
+    const areDatesValid = startDate && endDate && HelperFunctions.isDate1BeforeDate2(startDate, endDate);
+    const areDatesNotPassed = startDate && endDate && HelperFunctions.areDatesValid(startDate, endDate);
+
     useTitle("Vacations  | Add Vacation");
 
 
@@ -32,13 +30,22 @@ function AddVacation(): JSX.Element {
             vacation.image = (vacation.image as unknown as FileList)[0];
 
             // Validate dates:
-            if (!HelperFunctions.isDate1BeforeDate2(vacation.start_date, vacation.end_date)) {
+            if (!areDatesValid) {
                 setError("start_date", { type: "manual", message: "Start date must be before end date." });
                 setError("end_date", { type: "manual", message: "End date must be after start date." });
                 return;
-            }    
-            else { clearErrors(["start_date", "end_date"]);                
-            }        
+            } else if (!areDatesNotPassed) {
+                if (HelperFunctions.isDateInThePast(startDate)) {
+                    setError("start_date", { type: "manual", message: "Start date cannot be in the past." });
+                    return;
+                }
+                if (HelperFunctions.isDateInThePast(endDate)) {
+                    setError("end_date", { type: "manual", message: "End date cannot be in the past." });
+                    return;
+                }
+            } else {
+                clearErrors(["start_date", "end_date"]);
+            }
 
             // Send vacation to backend:
             await vacationsService.addVacation(vacation);
@@ -53,8 +60,6 @@ function AddVacation(): JSX.Element {
 
     return (
         <div className="AddVacation">
-
-
             {isAdmin && (
                 <div>
                     {/* Admin-only elements go here */}
@@ -70,13 +75,11 @@ function AddVacation(): JSX.Element {
 
                             <label>Start date:</label>
                             <input type="date" {...register("start_date", { required: true })} name="start_date" />
-                            {startDate && endDate && !isDateValid && <span className="error-message">Start date must be before end date.</span>}
+                            {errors.start_date && <span className="error-message">{errors.start_date.message}</span>}
 
                             <label>End date:</label>
                             <input type="date" {...register("end_date", { required: true })} name="end_date" />
-                            {startDate && endDate && !isDateValid && <span className="error-message">End date must be after start date.</span>}
-
-
+                            {errors.end_date && <span className="error-message">{errors.end_date.message}</span>}
 
                             <label>Price:</label>
                             <input type="number" {...register("price")} name="price" required />

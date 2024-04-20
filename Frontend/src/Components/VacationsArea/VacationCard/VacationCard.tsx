@@ -17,8 +17,8 @@ import informationIcon from "../../../Assets/icons/comment-info.png";
 
 type VacationCardProps = {
     vacation: VacationModel;
-    onDelete: (id: number) => void; 
-    onLikeStatusChange: (updatedVacation: VacationModel) => void; 
+    onDelete: (id: number) => void;
+    onLikeStatusChange: (updatedVacation: VacationModel) => void;
 };
 
 function VacationCard({ vacation, onDelete, onLikeStatusChange }: VacationCardProps): JSX.Element {
@@ -28,32 +28,24 @@ function VacationCard({ vacation, onDelete, onLikeStatusChange }: VacationCardPr
     const navigate = useNavigate();
 
     const user = useSelector<AppState, UserModel>(state => state.user);
-
-
-
     const userId = user.id;
-
 
     const handleLike = async () => {
         const newIsLiked = !isLiked;
         setIsLiked(newIsLiked);
-
         try {
             await vacationsService.updateVacationLikesStatusAndCount(vacation.id, userId, newIsLiked);
             const updatedVacation = await vacationsService.getOneVacation(vacation.id);
             setLikes(updatedVacation.totalLikesCount);
-
             // Pass the updated vacation data back to the parent component
             onLikeStatusChange(updatedVacation);
-
-        } catch (error) {
-            console.error("Error updating like count:", error);
+        } catch (err: any) {
+            notify.error("Error updating like count: " + err.message);
             setIsLiked(isLiked); // rollback on an error
         }
     };
 
     const handleEdit = () => {
-
         navigate(`/vacations/edit/${vacation.id}`);
     };
 
@@ -63,10 +55,7 @@ function VacationCard({ vacation, onDelete, onLikeStatusChange }: VacationCardPr
             // ask the user to confirm...
             const sure = window.confirm("Are you sure?");
             if (!sure) return;
-
             vacationsService.deleteVacation(vacation.id);
-
-
             // Refetch the vacations data
             await vacationsService.getAllVacationsWithLikes(userId);
             notify.success("vacation has been deleted.");
@@ -76,16 +65,11 @@ function VacationCard({ vacation, onDelete, onLikeStatusChange }: VacationCardPr
             navigate("/vacations");
         }
         catch (err: any) {
-            // notify.error(err);
-            notify.error("Failed to delete vacation: " + err.message);
-            console.error("Error deleting vacation:", err);
+            notify.error("Failed to delete  the vacation: " + err.message);
         }
-
-
     };
 
     const handleImageError = () => setImageErrorCount(count => count + 1);
-
 
     return (
         <div className="vacation-card-container">
@@ -96,18 +80,13 @@ function VacationCard({ vacation, onDelete, onLikeStatusChange }: VacationCardPr
                         alt={`${vacation.destination} ${vacation.imageUrl}`}
                         onError={handleImageError}
                     />
-                    {user && (user.role.toLowerCase() ===  "admin") && (
+                    {user && (user.role.toLowerCase() === "admin") && (
                         <>
-
                             <button className="edit-button" onClick={handleEdit} title="Edit vacation" ></button>
-
-
 
                             <button className="delete-button" onClick={handleDelete} title="Delete vacation"></button>
                         </>
                     )}
-
-
 
                 </div>
                 <button className={`like-btn ${isLiked ? 'liked' : ''}`} onClick={handleLike}>
@@ -145,7 +124,5 @@ function VacationCard({ vacation, onDelete, onLikeStatusChange }: VacationCardPr
             </div>
         </div>
     );
-
 }
-
 export default VacationCard;
